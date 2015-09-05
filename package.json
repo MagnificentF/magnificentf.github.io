@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MagnificentF/magnificentf.github.io/issues"
   },
-  "homepage": "https://magnificentf.github.io"
+  "homepage": "https://magnificentf.github.io",
+  "devDependencies": {
+    "node-static": "^0.7.7"
+  }
 }
