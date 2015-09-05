@@ -1,0 +1,19 @@
+{
+  "name": "magnificentf.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MagnificentF/magnificentf.github.io.git"
+  },
+  "author": "Fae Comiskey <magnificentf@gmail.com>",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/MagnificentF/magnificentf.github.io/issues"
+  },
+  "homepage": "https://magnificentf.github.io"
+}
