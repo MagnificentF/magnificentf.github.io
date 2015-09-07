@@ -5,11 +5,12 @@ var fs = require('fs');
 function css () {
 	console.info('css build task started');
 	var postcss = require('postcss');
-	var cssSrc = 'src/main.css';
+	var cssSrc = 'src/main.scss';
 	var cssDest = 'index.css';
-	postcss([ 
-		require('cssnext')(), 
-		require('cssnano')()
+	postcss([
+		require('postcss-simple-vars'),
+		require('postcss-nested'),
+		require('postcss-inline-comment')
 	])
 		.process(fs.readFileSync(cssSrc, "utf8"), { 
 			from: cssSrc,

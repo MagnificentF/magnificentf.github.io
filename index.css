@@ -1,0 +1,61 @@
+/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	background-image: url('/images/background.jpg');
+	background-repeat: repeat;
+	background-position: center;
+	color: rgb(145, 214, 211);
+	font-family: 'Corben', cursive;
+}
+main header {
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+main header #aquaframe {
+  text-align: center;
+  background-image: url('/images/aquaframe.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding: 21%;
+}
+main header h1 {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 10%;
+  font-weight: bold;
+  font-family: 'Mountains of Christmas', cursive;
+}
+main nav {
+  margin: auto;
+  text-align: center;
+}
+main nav a {
+  color: rgb(145, 214, 211);
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+}
+main nav a:hover {
+  text-decoration: underline;
+}
+main article {
+  display: none;
+}
+main article:target {
+  display: block;
+}
+main article h2 {
+  font-family: 'Life Savers', cursive;
+}
