@@ -68,16 +68,24 @@ main {
 		@mixin page;
 		display: none;
 		&:target {
+			position: relative;
 			display: block;
 		}
 		h2 {
 			@mixin lifesavers;
 		}
-		#illustration {
-			position: relative;
-			figure {
-				display: inline-block;
-				width: 33%;
+		figure {
+			display: inline-block;
+			width: 33%;
+			position: absolute;
+			&#claudette {
+				top: 0%;
+				left: 0%;
+				color:red;
+			}
+			&#hisLovelyAssistant {
+				top: 0%;
+				left: 33%;
 			}
 		}
 	}

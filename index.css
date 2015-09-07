@@ -58,16 +58,24 @@ main article {
   display: none;
 }
 main article:target {
+  position: relative;
   display: block;
 }
 main article h2 {
   font-family: 'Life Savers', serif;
   letter-spacing: .1em;
 }
-main article #illustration {
-  position: relative;
-}
-main article #illustration figure {
+main article figure {
   display: inline-block;
   width: 33%;
+  position: absolute;
+}
+main article figure#claudette {
+  top: 0%;
+  left: 0%;
+  color:red;
+}
+main article figure#hisLovelyAssistant {
+  top: 0%;
+  left: 33%;
 }

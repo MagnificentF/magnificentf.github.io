@@ -5,23 +5,26 @@ exports.css = css;
 function css (){
 	console.info('css build task started');
 	var postcss = require('postcss');
-	var cssSrc = 'src/main.scss';
-	var cssDest = 'index.css';
 	postcss([
-		require('postcss-inline-comment'),
+		require('postcss-inline-comment')(),
 		require('postcss-mixins'),
 		require('postcss-simple-vars'),
 		require('postcss-nested'),
 	])
-		.process(fs.readFileSync(cssSrc, "utf8"), { 
-			from: cssSrc,
-			to: cssDest 
+		.process(fs.readFileSync(config.cssSrc, "utf8"), { 
+			from: config.cssSrc,
+			to: config.cssDest 
 		})
-			.then(function (result) {
-				fs.writeFileSync(cssDest, result.css);
-				if (result.map) 
-					fs.writeFileSync(cssDest +'.map', result.map);
-				console.info('css built');
+			.then(
+				function (res) {
+					fs.writeFileSync(config.cssDest, res.css);
+					//if (res.map) 
+						//fs.writeFileSync(config.cssDest +'.map', res.map);
+					console.info('css built');
+				}
+			)
+			.catch(function (e) {
+				console.error(e);
 			});
 }
 
@@ -35,7 +38,7 @@ function html() {
 			pretty: !config.min
 		}
 	);
-  fs.writeFile(config.htmlWww, tpl({
+  fs.writeFile(config.htmlDest, tpl({
 		config: config,
 		data: require('./data')
 	}));

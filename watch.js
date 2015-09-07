@@ -4,11 +4,11 @@ var tasks = require('./tasks');
 chokidar.watch('src/*.scss')
 	.on('all', function(event, path) {
   	console.log(event, path);
-		tasks.css();
+		setTimeout(tasks.css, 1000);
 	});
 
 chokidar.watch('src/*.jade')
 	.on('all', function(event, path) {
   	console.log(event, path);
-		tasks.html();
+		setTimeout(tasks.html, 1000);
 	});
