@@ -6,3 +6,9 @@ chokidar.watch('src/*.scss')
   	console.log(event, path);
 		tasks.css();
 	});
+
+chokidar.watch('src/*.jade')
+	.on('all', function(event, path) {
+  	console.log(event, path);
+		tasks.html();
+	});

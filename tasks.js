@@ -1,16 +1,17 @@
-exports.css = css;
-
 var fs = require('fs');
+var config = require('./config');
 
-function css () {
+exports.css = css;
+function css (){
 	console.info('css build task started');
 	var postcss = require('postcss');
 	var cssSrc = 'src/main.scss';
 	var cssDest = 'index.css';
 	postcss([
+		require('postcss-inline-comment'),
+		require('postcss-mixins'),
 		require('postcss-simple-vars'),
 		require('postcss-nested'),
-		require('postcss-inline-comment')
 	])
 		.process(fs.readFileSync(cssSrc, "utf8"), { 
 			from: cssSrc,
@@ -22,4 +23,21 @@ function css () {
 					fs.writeFileSync(cssDest +'.map', result.map);
 				console.info('css built');
 			});
+}
+
+exports.html = html;
+function html() {
+	console.info('building html');
+	var jade = require('jade');
+	var tpl = jade.compileFile(
+		config.htmlSrc, {
+			cache: false,
+			pretty: !config.min
+		}
+	);
+  fs.writeFile(config.htmlWww, tpl({
+		config: config,
+		data: require('./data')
+	}));
+  console.log('html built');
 }

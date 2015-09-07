@@ -1,0 +1,38 @@
+mixin exhibit(id, title, description)
+	figure(id=id)
+		figcaption
+			h3=title
+			p=description
+			button buy me
+doctype html
+html
+	head
+		title The Magnificent Miss F.
+		link(rel='stylesheet', href='index.css')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(href='https://fonts.googleapis.com/css?family=Corben|Mountains+of+Christmas:700|Life+Savers:700', rel='stylesheet', type='text/css')
+	body
+		main
+			header
+				#aquaframe
+				h1 The Magnificent Miss F.
+			nav
+				a(href='#illustration') Illustration
+				a(href='#painting') Painting
+				a(href='#sculpture') Sculpture
+				a(href='#animation') Animation
+				a(href='#contact') Contact
+				a(href='#about') About
+			article#illustration
+				each item, key in data.illustration
+					+exhibit(key, item.title, item.description)
+			article#painting
+				h2 Painting
+			article#sculpture
+				h2 Sculpture
+			article#animation
+				h2 Animation
+			article#contact
+				h2 Contact
+			article#about
+				h2 About

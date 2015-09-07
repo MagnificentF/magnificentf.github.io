@@ -1,6 +1,15 @@
 /* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 $aqua: rgb(145, 214, 211);
-$page-width: 500px;
+
+@define-mixin lifesavers {
+	font-family: 'Life Savers', serif;
+	letter-spacing: .1em;
+}
+
+@define-mixin page {
+	max-width: 500px;
+	margin: auto;
+}
 
 html {
   box-sizing: border-box;
@@ -17,8 +26,7 @@ body {
 }
 main {
 	header {
-		max-width: $page-width;
-		margin: auto;
+		@mixin page;
 		position: relative;
 		#aquaframe {
 			text-align: center;
@@ -49,6 +57,7 @@ main {
 			text-decoration: none;
 			display: inline-block;
 			padding: 1em;
+			@mixin lifesavers;
 			&:hover {
 				text-decoration: underline;
 			}
@@ -56,12 +65,20 @@ main {
 	}
 
 	article {
+		@mixin page;
 		display: none;
 		&:target {
 			display: block;
 		}
 		h2 {
-			font-family: 'Life Savers', cursive;
+			@mixin lifesavers;
+		}
+		#illustration {
+			position: relative;
+			figure {
+				display: inline-block;
+				width: 33%;
+			}
 		}
 	}
 }

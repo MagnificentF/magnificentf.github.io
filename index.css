@@ -46,16 +46,28 @@ main nav a {
   text-decoration: none;
   display: inline-block;
   padding: 1em;
+  font-family: 'Life Savers', serif;
+  letter-spacing: .1em;
 }
 main nav a:hover {
   text-decoration: underline;
 }
 main article {
+  max-width: 500px;
+  margin: auto;
   display: none;
 }
 main article:target {
   display: block;
 }
 main article h2 {
-  font-family: 'Life Savers', cursive;
+  font-family: 'Life Savers', serif;
+  letter-spacing: .1em;
+}
+main article #illustration {
+  position: relative;
+}
+main article #illustration figure {
+  display: inline-block;
+  width: 33%;
 }
