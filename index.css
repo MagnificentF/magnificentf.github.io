@@ -1,5 +1,6 @@
 /* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 
+
 html {
   box-sizing: border-box;
 }
@@ -53,8 +54,6 @@ main nav a:hover {
   text-decoration: underline;
 }
 main article {
-  max-width: 500px;
-  margin: auto;
   display: none;
 }
 main article:target {
@@ -66,16 +65,28 @@ main article h2 {
   letter-spacing: .1em;
 }
 main article figure {
-  display: inline-block;
-  width: 33%;
+  outline: 1px solid red;
   position: absolute;
+  font-size: 1vw;
 }
-main article figure#claudette {
-  top: 0%;
+main article figure figcaption {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+#claudette {
+  width: 20%;
+  padding: 10% 0;
+  margin: 0% 0 0 0;
   left: 0%;
-  color:red;
 }
-main article figure#hisLovelyAssistant {
-  top: 0%;
-  left: 33%;
+
+#hisLovelyAssistant {
+  width: 20%;
+  padding: 13% 0;
+  margin: 5% 0 0 0;
+  left: 25%;
 }

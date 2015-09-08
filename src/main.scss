@@ -11,6 +11,7 @@ $aqua: rgb(145, 214, 211);
 	margin: auto;
 }
 
+
 html {
   box-sizing: border-box;
 }
@@ -65,7 +66,6 @@ main {
 	}
 
 	article {
-		@mixin page;
 		display: none;
 		&:target {
 			position: relative;
@@ -75,18 +75,18 @@ main {
 			@mixin lifesavers;
 		}
 		figure {
-			display: inline-block;
-			width: 33%;
+			outline: 1px solid red;
 			position: absolute;
-			&#claudette {
-				top: 0%;
-				left: 0%;
-				color:red;
-			}
-			&#hisLovelyAssistant {
-				top: 0%;
-				left: 33%;
+			font-size: 1vw;
+			figcaption {
+				position: absolute;
+				text-align: center;
+				width: 100%;
+				bottom: 0;
+				left: 0;
 			}
 		}
 	}
 }
+
+@mixin exhibits;

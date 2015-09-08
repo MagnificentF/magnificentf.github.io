@@ -1,0 +1,20 @@
+{
+	"illustration": {
+		"claudette": {
+			"title": "Claudette",
+			"description": "Step right up! Feast your eyes on this handsome beauty! A kiss on the cheek from whichever side you fancy for only 5 cents! 10 cents gets you a kiss from both!",
+			"width": 20,
+			"height": 20,
+			"top": 0,
+			"left": 0
+		},
+		"hisLovelyAssistant": {
+			"title": "His Lovely Assistant",
+			"description": "Come! Say a prayer for this daring beauty! Our knife throwers daggers are razor sharp, so we hope his aim is true! Step right up! Who wants a bear? See for yourself how sharp these daggers are! What a brave beauty!",
+			"width": 20,
+			"height": 26,
+			"top": 5,
+			"left": 25
+		}
+	}
+}

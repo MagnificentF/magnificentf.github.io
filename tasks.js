@@ -7,18 +7,22 @@ function css (){
 	var postcss = require('postcss');
 	postcss([
 		require('postcss-inline-comment')(),
-		require('postcss-mixins'),
+		require('postcss-mixins')({
+			mixins: {
+				exhibits: require('./src/exhibits')
+			}
+		}),
 		require('postcss-simple-vars'),
 		require('postcss-nested'),
 	])
-		.process(fs.readFileSync(config.cssSrc, "utf8"), { 
+		.process(fs.readFileSync(config.cssSrc, "utf8"), {
 			from: config.cssSrc,
-			to: config.cssDest 
+			to: config.cssDest
 		})
 			.then(
 				function (res) {
 					fs.writeFileSync(config.cssDest, res.css);
-					//if (res.map) 
+					//if (res.map)
 						//fs.writeFileSync(config.cssDest +'.map', res.map);
 					console.info('css built');
 				}
@@ -40,7 +44,7 @@ function html() {
 	);
   fs.writeFile(config.htmlDest, tpl({
 		config: config,
-		data: require('./data')
+		data: require('./src/data')
 	}));
   console.log('html built');
 }
