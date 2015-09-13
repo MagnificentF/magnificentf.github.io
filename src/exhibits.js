@@ -12,8 +12,8 @@ module.exports = function (node) {
         padding: exhibit.height / 2 + '% 0',
         margin: exhibit.top + '% 0 0 0',
         left: exhibit.left + '%',
-        'background-image': `url(${exhibit.image})`,
-        'background-repeat': 'norepeat',
+        'background-image': `url(images/${exhibit.image})`,
+        'background-repeat': 'no-repeat',
         'background-position': 'top',
         'background-size': 'cover'
       }

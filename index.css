@@ -81,6 +81,10 @@ main article figure figcaption {
   padding: 10% 0;
   margin: 0% 0 0 0;
   left: 0%;
+  background-image: url(images/Claudette.jpg);
+  background-repeat: norepeat;
+  background-position: top;
+  background-size: cover;
 }
 
 #hisLovelyAssistant {
@@ -88,6 +92,10 @@ main article figure figcaption {
   padding: 13% 0;
   margin: 5% 0 0 0;
   left: 25%;
+  background-image: url(images/His_Lovely_Assistant.jpg);
+  background-repeat: norepeat;
+  background-position: top;
+  background-size: cover;
 }
 
 #priscillaAndPeach {
@@ -95,4 +103,19 @@ main article figure figcaption {
   padding: 10% 0;
   margin: 0% 0 0 0;
   left: 50%;
+  background-image: url(images/Priscilla_And_Peach.jpg);
+  background-repeat: norepeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#maxAndJax {
+  width: 20%;
+  padding: 10% 0;
+  margin: 20% 0 0 0;
+  left: 0%;
+  background-image: url(images/Max_And_Jax.jpg);
+  background-repeat: norepeat;
+  background-position: top;
+  background-size: cover;
 }
