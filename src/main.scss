@@ -1,4 +1,4 @@
-/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
 $aqua: rgb(145, 214, 211);
 
 @define-mixin lifesavers {
@@ -11,7 +11,7 @@ $aqua: rgb(145, 214, 211);
 	margin: auto;
 }
 
-
+/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
   box-sizing: border-box;
 }

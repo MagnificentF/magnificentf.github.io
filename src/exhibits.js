@@ -10,8 +10,12 @@ module.exports = function (node) {
       rules['#' + id] = {
         width: exhibit.width + '%',
         padding: exhibit.height / 2 + '% 0',
-        'margin': exhibit.top + '% 0 0 0',
-        left: exhibit.left + '%'
+        margin: exhibit.top + '% 0 0 0',
+        left: exhibit.left + '%',
+        'background-image': `url(${exhibit.image})`,
+        'background-repeat': 'norepeat',
+        'background-position': 'top',
+        'background-size': 'cover'
       }
     }
   }

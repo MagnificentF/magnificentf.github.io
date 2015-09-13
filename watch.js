@@ -1,7 +1,7 @@
 var chokidar = require('chokidar');
 var tasks = require('./tasks');
 
-chokidar.watch('src/*.(scss|json)')
+chokidar.watch('src/*.(scss|json|js)')
 	.on('all', function(event, path) {
   	console.log(event, path);
 		setTimeout(tasks.css, 1000);

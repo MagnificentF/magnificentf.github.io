@@ -1,6 +1,5 @@
+
 /* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-
-
 html {
   box-sizing: border-box;
 }
@@ -89,4 +88,11 @@ main article figure figcaption {
   padding: 13% 0;
   margin: 5% 0 0 0;
   left: 25%;
+}
+
+#priscillaAndPeach {
+  width: 20%;
+  padding: 10% 0;
+  margin: 0% 0 0 0;
+  left: 50%;
 }
