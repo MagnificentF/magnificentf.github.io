@@ -75,7 +75,7 @@ main {
 			@mixin lifesavers;
 		}
 		figure.exhibit {
-			outline: 1px solid red;
+			outline: 1px solid $aqua;
 			position: absolute;
 			font-size: 1vw;
 			figcaption {

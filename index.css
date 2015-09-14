@@ -64,7 +64,7 @@ main article h2 {
   letter-spacing: .1em;
 }
 main article figure.exhibit {
-  outline: 1px solid red;
+  outline: 1px solid rgb(145, 214, 211);
   position: absolute;
   font-size: 1vw;
 }
