@@ -63,16 +63,16 @@ main article h2 {
   font-family: 'Life Savers', serif;
   letter-spacing: .1em;
 }
-main article figure {
+main article figure.exhibit {
   outline: 1px solid red;
   position: absolute;
   font-size: 1vw;
 }
-main article figure figcaption {
+main article figure.exhibit figcaption {
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 0;
+  top: 100%;
   left: 0;
 }
 
@@ -82,7 +82,7 @@ main article figure figcaption {
   margin: 3% 0 0 0;
   left: 5%;
   background-image: url(images/Claudette.jpg);
-  background-repeat: norepeat;
+  background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
@@ -93,7 +93,7 @@ main article figure figcaption {
   margin: 5% 0 0 0;
   left: 37%;
   background-image: url(images/His_Lovely_Assistant.jpg);
-  background-repeat: norepeat;
+  background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
@@ -104,7 +104,7 @@ main article figure figcaption {
   margin: 3% 0 0 0;
   left: 69%;
   background-image: url(images/Priscilla_And_Peach.jpg);
-  background-repeat: norepeat;
+  background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
@@ -115,7 +115,7 @@ main article figure figcaption {
   margin: 30% 0 0 0;
   left: 5%;
   background-image: url(images/Max_And_Jax.jpg);
-  background-repeat: norepeat;
+  background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }

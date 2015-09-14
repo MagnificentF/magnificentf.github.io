@@ -1,4 +1,3 @@
-
 module.exports = function (node) {
   delete require.cache[require.resolve('./data.json')]
   var data = require('./data.json');
