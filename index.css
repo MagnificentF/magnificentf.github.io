@@ -82,7 +82,7 @@ main article figure.exhibit figcaption {
   margin: 3% 0 0 0;
   left: 5%;
   background-image: url(images/Claudette.jpg);
-  background-repeat: no-repeat;
+  background-repeat: norepeat;
   background-position: top;
   background-size: cover;
 }
@@ -92,8 +92,8 @@ main article figure.exhibit figcaption {
   padding: 12.5% 0;
   margin: 5% 0 0 0;
   left: 37%;
-  background-image: url(images/His_Lovely_Assistant.jpg);
-  background-repeat: no-repeat;
+  background-image: url(images/His_Lovely_Assistant.png);
+  background-repeat: norepeat;
   background-position: top;
   background-size: cover;
 }
@@ -104,7 +104,7 @@ main article figure.exhibit figcaption {
   margin: 3% 0 0 0;
   left: 69%;
   background-image: url(images/Priscilla_And_Peach.jpg);
-  background-repeat: no-repeat;
+  background-repeat: norepeat;
   background-position: top;
   background-size: cover;
 }
@@ -115,7 +115,7 @@ main article figure.exhibit figcaption {
   margin: 30% 0 0 0;
   left: 5%;
   background-image: url(images/Max_And_Jax.jpg);
-  background-repeat: no-repeat;
+  background-repeat: norepeat;
   background-position: top;
   background-size: cover;
 }
