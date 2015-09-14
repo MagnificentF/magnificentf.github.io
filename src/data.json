@@ -4,28 +4,28 @@
 			"title": "Claudette",
 			"description": "Step right up! Feast your eyes on this handsome beauty! A kiss on the cheek from whichever side you fancy for only 5 cents! 10 cents gets you a kiss from both!",
 			"image": "Claudette.jpg",
-			"width": 20,
-			"height": 20,
-			"top": 0,
-			"left": 0
+			"width": 25,
+			"height": 25,
+			"top": 3,
+			"left": 5
 		},
 		"hisLovelyAssistant": {
 			"title": "His Lovely Assistant",
 			"description": "Come! Say a prayer for this daring beauty! Our knife throwers daggers are razor sharp, so we hope his aim is true! Step right up! Who wants a bear? See for yourself how sharp these daggers are! What a brave beauty!",
 			"image": "His_Lovely_Assistant.jpg",
-			"width": 20,
-			"height": 26,
+			"width": 25,
+			"height": 25,
 			"top": 5,
-			"left": 25
+			"left": 37
 		},
 		"priscillaAndPeach": {
 			"title": "Priscilla and Peach",
 			"description": "Come one! Come all!  Witness these hypnotizing beauties! Is she one girl or two? Stare deep into her spinning wand and let her make up your mind for you!",
 			"image": "Priscilla_And_Peach.jpg",
-			"width": 20,
-			"height": 20,
-			"top": 0,
-			"left": 50
+			"width": 24,
+			"height": 31,
+			"top": 3,
+			"left": 69
 		},
 		"maxAndJax": {
 			"title": "Max and Jax",
@@ -33,8 +33,8 @@
 			"image": "Max_And_Jax.jpg",
 			"width": 20,
 			"height": 20,
-			"top": 20,
-			"left": 0
+			"top": 30,
+			"left": 5
 		}
 	}
 }
