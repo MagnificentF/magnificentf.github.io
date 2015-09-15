@@ -77,8 +77,8 @@ main article figure.exhibit figcaption {
 }
 
 #claudette {
-  width: 25%;
-  padding: 12.5% 0;
+  width: 26%;
+  padding: 16% 0;
   margin: 3% 0 0 0;
   left: 5%;
   background-image: url(images/Claudette.jpg);
@@ -99,8 +99,8 @@ main article figure.exhibit figcaption {
 }
 
 #priscillaAndPeach {
-  width: 24%;
-  padding: 15.5% 0;
+  width: 26%;
+  padding: 16% 0;
   margin: 3% 0 0 0;
   left: 69%;
   background-image: url(images/Priscilla_And_Peach.jpg);
@@ -112,7 +112,7 @@ main article figure.exhibit figcaption {
 #maxAndJax {
   width: 20%;
   padding: 10% 0;
-  margin: 30% 0 0 0;
+  margin: 40% 0 0 0;
   left: 5%;
   background-image: url(images/Max_And_Jax.jpg);
   background-repeat: norepeat;

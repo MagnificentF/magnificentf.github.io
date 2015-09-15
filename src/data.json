@@ -4,8 +4,8 @@
 			"title": "Claudette",
 			"description": "Step right up! Feast your eyes on this handsome beauty! A kiss on the cheek from whichever side you fancy for only 5 cents! 10 cents gets you a kiss from both!",
 			"image": "Claudette.jpg",
-			"width": 25,
-			"height": 25,
+			"width": 26,
+			"height": 32,
 			"top": 3,
 			"left": 5
 		},
@@ -22,8 +22,8 @@
 			"title": "Priscilla and Peach",
 			"description": "Come one! Come all!  Witness these hypnotizing beauties! Is she one girl or two? Stare deep into her spinning wand and let her make up your mind for you!",
 			"image": "Priscilla_And_Peach.jpg",
-			"width": 24,
-			"height": 31,
+			"width": 26,
+			"height": 32,
 			"top": 3,
 			"left": 69
 		},
@@ -33,7 +33,7 @@
 			"image": "Max_And_Jax.jpg",
 			"width": 20,
 			"height": 20,
-			"top": 30,
+			"top": 70,
 			"left": 5
 		}
 	}
