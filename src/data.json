@@ -44,6 +44,15 @@
       "height": 24,
       "top": 50,
       "left": 47
+		},
+		"theMoon": {
+			"title": "The Moon",
+			"description":,
+			"image": "The_Moon.jpg",
+			"width": 36,
+			"height": 24,
+			"top": 50,
+			"left": 49
     }
   }
 }
