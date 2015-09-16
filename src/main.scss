@@ -78,6 +78,11 @@ main {
 			outline: 1px solid $aqua;
 			position: absolute;
 			font-size: 1vw;
+			border-width: 4vw;
+			border-image: url(images/frame.png) 18% 20% 18% stretch;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: top;
 			figcaption {
 				position: absolute;
 				text-align: center;
