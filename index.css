@@ -113,8 +113,19 @@ main article figure.exhibit figcaption {
   width: 30%;
   padding: 17% 0;
   margin: 50% 0 0 0;
-  left: 5%;
+  left: 10%;
   background-image: url(images/Max_And_Jax.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#mementoMori {
+  width: 40%;
+  padding: 12% 0;
+  margin: 50% 0 0 0;
+  left: 47%;
+  background-image: url(images/Memento_Mori.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
