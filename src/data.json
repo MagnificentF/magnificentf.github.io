@@ -34,25 +34,43 @@
       "width": 30,
       "height": 34,
       "top": 50,
-      "left": 10
+      "left": 5
     },
     "mementoMori": {
       "title": "Memento Mori",
-      "description": "Don't forget.",
+      "description": "",
       "image": "Memento_Mori.jpg",
       "width": 40,
       "height": 24,
       "top": 50,
-      "left": 47
+      "left": 49
 		},
 		"theMoon": {
 			"title": "The Moon",
-			"description":,
+			"description": "",
 			"image": "The_Moon.jpg",
-			"width": 36,
+			"width": 30,
 			"height": 24,
-			"top": 50,
-			"left": 49
+			"top": 82,
+			"left": 64
+		},
+		"bandLogo": {
+			"title": "Band Logo",
+			"description": "\"Ten paces and fire!\" my friends' father shouted. The two men strode forth, turned, and blasted each other with birdshot. \"Why?\" we asked him. \"We were bored.\"",
+			"image": "Band_Logo.png",
+			"width": 21,
+			"height": 21,
+			"top": 78,
+			"left": 39
+		},
+		"theSalesman": {
+			"title": "The Salesman",
+			"description": "",
+			"image": "The_Salesman.jpg",
+			"width": 21,
+			"height": 21,
+			"top": 78,
+			"left": 39
     }
   }
 }

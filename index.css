@@ -64,7 +64,6 @@ main article h2 {
   letter-spacing: .1em;
 }
 main article figure.exhibit {
-  outline: 1px solid rgb(145, 214, 211);
   position: absolute;
   font-size: 1vw;
 }
@@ -113,7 +112,7 @@ main article figure.exhibit figcaption {
   width: 30%;
   padding: 17% 0;
   margin: 50% 0 0 0;
-  left: 10%;
+  left: 5%;
   background-image: url(images/Max_And_Jax.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -124,8 +123,41 @@ main article figure.exhibit figcaption {
   width: 40%;
   padding: 12% 0;
   margin: 50% 0 0 0;
-  left: 47%;
+  left: 49%;
   background-image: url(images/Memento_Mori.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#theMoon {
+  width: 30%;
+  padding: 12% 0;
+  margin: 82% 0 0 0;
+  left: 64%;
+  background-image: url(images/The_Moon.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#bandLogo {
+  width: 21%;
+  padding: 10.5% 0;
+  margin: 78% 0 0 0;
+  left: 39%;
+  background-image: url(images/Band_Logo.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#theSalesman {
+  width: 21%;
+  padding: 10.5% 0;
+  margin: 78% 0 0 0;
+  left: 39%;
+  background-image: url(images/The_Salesman.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
