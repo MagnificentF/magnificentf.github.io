@@ -188,9 +188,53 @@ main article figure.exhibit figcaption {
 #thePrototype {
   width: 23%;
   padding: 18.5% 0;
-  margin: 136% 0 0 0;
+  margin: 137% 0 0 0;
   left: 5%;
   background-image: url(images/The_Prototype.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#ouija {
+  width: 33%;
+  padding: 11% 0;
+  margin: 154% 0 0 0;
+  left: 33%;
+  background-image: url(images/Ouija.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#theNightmareMuncher {
+  width: 22%;
+  padding: 14% 0;
+  margin: 151% 0 0 0;
+  left: 71.5%;
+  background-image: url(images/The_Nightmare_Muncher.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#zylphia {
+  width: 37%;
+  padding: 22.5% 0;
+  margin: 180% 0 0 0;
+  left: 7%;
+  background-image: url(images/Zylphia.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#violetAndVivian {
+  width: 37%;
+  padding: 22.5% 0;
+  margin: 180% 0 0 0;
+  left: 47%;
+  background-image: url(images/Violet_And_Vivian.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
