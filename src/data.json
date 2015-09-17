@@ -124,7 +124,7 @@
 			"width": 37,
 			"height": 45,
 			"top": 180,
-			"left": 7
+			"left": 8
 		},
 		"violetAndVivian": {
 			"title": "Violet and Vivian",
@@ -132,8 +132,8 @@
 			"image": "Violet_And_Vivian.png",
 			"width": 37,
 			"height": 45,
-			"top": 180,
-			"left": 47
+			"top": 184,
+			"left": 52
     }
   }
 }
