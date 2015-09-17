@@ -71,6 +71,15 @@
 			"height": 31,
 			"top": 99,
 			"left": 8
+		},
+		"voodooDoll": {
+			"title": "Voodoo Doll",
+			"description": "",
+			"image": "Voodoo_Doll.jpg",
+			"width": 25.5,
+			"height": 31,
+			"top": 99,
+			"left": 48
     }
   }
 }

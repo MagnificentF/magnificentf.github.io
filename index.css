@@ -162,3 +162,14 @@ main article figure.exhibit figcaption {
   background-position: top;
   background-size: cover;
 }
+
+#voodooDoll {
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 99% 0 0 0;
+  left: 48%;
+  background-image: url(images/Voodoo_Doll.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
