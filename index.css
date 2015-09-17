@@ -184,3 +184,14 @@ main article figure.exhibit figcaption {
   background-position: top;
   background-size: cover;
 }
+
+#thePrototype {
+  width: 23%;
+  padding: 18.5% 0;
+  margin: 136% 0 0 0;
+  left: 5%;
+  background-image: url(images/The_Prototype.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}

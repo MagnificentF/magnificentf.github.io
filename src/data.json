@@ -89,6 +89,15 @@
 			"height": 30,
 			"top": 114,
 			"left": 68
+		},
+		"thePrototype": {
+			"title": "The Prototype",
+			"description": "",
+			"image": "The_Prototype.jpg",
+			"width": 23,
+			"height": 37,
+			"top": 136,
+			"left": 5
     }
   }
 }
