@@ -152,6 +152,16 @@
 			"height": 45,
 			"top": 246,
 			"left": 54
+		},
+			"eudora": {
+				"title": "Eudora",
+				"description": "Eudora, much to her dismay, perished deep beneath the waves. And to this day she haunts the seas, but her story's not sad you see, for in her watery grave her bones did fall in love with Davy Jones.",
+				"image": "Eudora.png",
+				"width": 38,
+				"height": 45,
+				"top": 240,
+				"left": 10
+			}
     }
   }
 }
