@@ -78,8 +78,17 @@
 			"image": "Voodoo_Doll.jpg",
 			"width": 25.5,
 			"height": 31,
-			"top": 99,
-			"left": 48
+			"top": 116,
+			"left": 40
+		},
+		"goth": {
+			"title": "Goth",
+			"description": "",
+			"image": "Goth.png",
+			"width": 30,
+			"height": 34,
+			"top": 116,
+			"left": 70
     }
   }
 }
