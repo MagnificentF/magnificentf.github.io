@@ -158,10 +158,18 @@
 				"description": "Eudora, much to her dismay, perished deep beneath the waves. And to this day she haunts the seas, but her story's not sad you see, for in her watery grave her bones did fall in love with Davy Jones.",
 				"image": "Eudora.png",
 				"width": 38,
-				"height": 45,
+				"height": 47,
 				"top": 240,
 				"left": 10
+      },
+        "flora": {
+          "title": "Flora",
+          "description": "Flora hates to sit up straight, to be proper is frightening. But she can't move a hair since the day she was dared to get herself struck by lightning. She cannot help but look morose, for now her body's comatose. But now she has a good excuse for being lazy and obtuse.",
+          "image": "Flora.png",
+          "width": 38,
+          "height": 45,
+          "top": 302,
+          "left": 10
 			}
     }
   }
-}
