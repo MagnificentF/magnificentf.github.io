@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "node build",
-    "dev": "concurrent \"npm run start\" \"node watch\""
+    "dev": "concurrent \"npm run start\" \"node watch\"",
+    "check": "npm-check -u"
   },
   "repository": {
     "type": "git",
@@ -21,13 +22,13 @@
   "devDependencies": {
     "chokidar": "^1.0.5",
     "concurrently": "^0.1.1",
-    "eslint": "^1.4.1",
+    "eslint": "^1.4.3",
     "jade": "^1.11.0",
     "node-static": "^0.7.7",
     "postcss": "^5.0.4",
     "postcss-inline-comment": "^2.0.0",
     "postcss-mixins": "^1.0.0",
     "postcss-nested": "^1.0.0",
-    "postcss-simple-vars": "^1.0.0"
+    "postcss-simple-vars": "^1.0.1"
   }
 }
