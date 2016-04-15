@@ -1,5 +1,8 @@
 module.exports = function (node) {
-  delete require.cache[require.resolve('./data.json')]
+  
+  // flush the npm cache
+  delete require.cache[require.resolve('./data.json')];
+  
   var data = require('./data.json');
   //console.log('compiling css for exhibits');
   var rules = {};
