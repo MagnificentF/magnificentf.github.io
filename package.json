@@ -20,15 +20,15 @@
   },
   "homepage": "https://magnificentf.github.io",
   "devDependencies": {
-    "chokidar": "^1.0.5",
-    "concurrently": "^0.1.1",
-    "eslint": "^1.4.3",
+    "chokidar": "^1.4.3",
+    "concurrently": "^2.0.0",
+    "eslint": "^2.8.0",
     "node-static": "^0.7.7",
-    "postcss": "^5.0.4",
+    "postcss": "^5.0.19",
     "postcss-inline-comment": "^2.0.0",
-    "postcss-mixins": "^1.0.0",
+    "postcss-mixins": "^4.0.1",
     "postcss-nested": "^1.0.0",
-    "postcss-simple-vars": "^1.0.1",
+    "postcss-simple-vars": "^1.2.0",
     "pug": "^2.0.0-alpha3"
   }
 }
