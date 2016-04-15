@@ -41,8 +41,8 @@ function css (){
 exports.html = html;
 function html() {
 	console.info('building html');
-	var jade = require('jade');
-	var tpl = jade.compileFile(
+	var pug = require('pug');
+	var tpl = pug.compileFile(
 		config.htmlSrc, {
 			cache: false,
 			pretty: !config.min
