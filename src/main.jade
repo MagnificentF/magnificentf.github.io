@@ -6,10 +6,13 @@ mixin exhibit(id, title, description)
 doctype html
 html
 	head
+		meta(charset='utf-8')
+		meta(http-equiv='x-ua-compatible' content='ie=edge')
+		meta(name='viewport' content='width=device-width, initial-scale=1')
 		title The Magnificent Miss F.
-		link(rel='stylesheet', href='index.css')
-		meta(name='viewport', content='width=device-width, initial-scale=1')
-		link(href='https://fonts.googleapis.com/css?family=Corben|Mountains+of+Christmas:700|Life+Savers:700', rel='stylesheet', type='text/css')
+		meta(name='description' content='Paintings, illustrations, sculptures, and animations by artist Fae Comiskey')
+		link(rel='stylesheet' href='index.css')
+		link(href='https://fonts.googleapis.com/css?family=Corben|Mountains+of+Christmas:700|Life+Savers:700' rel='stylesheet' type='text/css')
 	body
 		main
 			header
