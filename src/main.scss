@@ -2,13 +2,13 @@
 $aqua: rgb(145, 214, 211);
 
 @define-mixin lifesavers {
-	font-family: 'Life Savers', serif;
-	letter-spacing: .1em;
+  font-family: 'Life Savers', serif;
+  letter-spacing: .1em;
 }
 
 @define-mixin page {
-	max-width: 500px;
-	margin: auto;
+  max-width: 500px;
+  margin: auto;
 }
 
 /* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -19,73 +19,73 @@ html {
   box-sizing: inherit;
 }
 body {
-	background-image: url('/images/background.jpg');
-	background-repeat: repeat;
-	background-position: center;
-	color: $aqua;
-	font-family: 'Corben', cursive;
+  background-image: url('/images/background.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  color: $aqua;
+  font-family: 'Corben', cursive;
 }
 main {
-	header {
-		@mixin page;
-		position: relative;
-		#aquaframe {
-			text-align: center;
-			background-image: url('/images/aquaframe.png');
-			background-size: 100%;
-			background-repeat: no-repeat;
-			background-position: center;
-			width: 100%;
-			padding: 21%;
-		}
-		h1 {
-			font-size: 2em;
-			text-align: center;
-			width: 100%;
-			position: absolute;
-			top: 0;
-			padding: 10%;
-			font-weight: bold;
-			font-family: 'Mountains of Christmas', cursive;
-		}
-	}
+  header {
+    @mixin page;
+    position: relative;
+    #aquaframe {
+      text-align: center;
+      background-image: url('/images/aquaframe.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      padding: 21%;
+    }
+    h1 {
+      font-size: 2em;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      padding: 10%;
+      font-weight: bold;
+      font-family: 'Mountains of Christmas', cursive;
+    }
+  }
 
-	nav {
-		margin: auto;
-		text-align: center;
-		a {
-			color: $aqua;
-			text-decoration: none;
-			display: inline-block;
-			padding: 1em;
-			@mixin lifesavers;
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-	}
+  nav {
+    margin: auto;
+    text-align: center;
+    a {
+      color: $aqua;
+      text-decoration: none;
+      display: inline-block;
+      padding: 1em;
+      @mixin lifesavers;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 
-	article {
-		display: none;
-		&:target {
-			position: relative;
-			display: block;
-		}
-		h2 {
-			@mixin lifesavers;
-		}
-		figure.exhibit {
-			position: absolute;
-			font-size: 1vw;
-			figcaption {
-				position: absolute;
-				text-align: center;
-				width: 100%;
-				top: 100%;
-				left: 0;
-			}
-		}
-	}
+  article {
+    display: none;
+    &:target {
+      position: relative;
+      display: block;
+    }
+    h2 {
+      @mixin lifesavers;
+    }
+    figure.exhibit {
+      position: absolute;
+      font-size: 1vw;
+      figcaption {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 100%;
+        left: 0;
+      }
+    }
+  }
 }
 
 @mixin exhibits;

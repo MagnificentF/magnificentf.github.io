@@ -54,3 +54,18 @@ function html() {
 	}));
   console.log('html built');
 }
+
+exports.soften = soften;
+function soften() {
+	require('findit')(config.src)
+		.on('file', filePath => {
+			fs.readFile(filePath, (err, data) => {
+				if (err) throw err;
+				var softened = String(data).replace(/\t/g, '  ');
+				fs.writeFile(filePath, softened, (err) => {
+					if (err) throw err;
+					console.log('softened file', filePath);
+				});
+			});
+		});
+}

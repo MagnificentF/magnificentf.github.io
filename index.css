@@ -7,11 +7,11 @@ html {
   box-sizing: inherit;
 }
 body {
-	background-image: url('/images/background.jpg');
-	background-repeat: repeat;
-	background-position: center;
-	color: rgb(145, 214, 211);
-	font-family: 'Corben', cursive;
+  background-image: url('/images/background.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  color: rgb(145, 214, 211);
+  font-family: 'Corben', cursive;
 }
 main header {
   max-width: 500px;
