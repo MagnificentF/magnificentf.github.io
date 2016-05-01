@@ -10,3 +10,4 @@ to start the development preview server type the following command on the comman
 
 ## Todo
 * [ ] Finish entering artwork into data.json
+* [ ] Learn a whole bunch of new programs
