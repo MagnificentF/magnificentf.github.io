@@ -7,7 +7,6 @@ function css (){
 	var postcss = require('postcss');
 	try {
 		postcss([
-			//require('post-media-variables'),
 			require('postcss-mixins')({
 				mixins: {
 					exhibits: require('./src/exhibits')
