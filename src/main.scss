@@ -11,7 +11,7 @@ $aqua: rgb(145, 214, 211);
   margin: auto;
 }
 
-/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 html {
   box-sizing: border-box;
 }
@@ -28,23 +28,16 @@ body {
 main {
   header {
     @mixin page;
-    position: relative;
-    #aquaframe {
+    h1#aquaframe {
       text-align: center;
       background-image: url('/images/aquaframe.png');
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
-      width: 100%;
-      padding: 21%;
-    }
-    h1 {
+      padding: 20%;
       font-size: 2em;
       text-align: center;
       width: 100%;
-      position: absolute;
-      top: 0;
-      padding: 10%;
       font-weight: bold;
       font-family: 'Mountains of Christmas', cursive;
     }
