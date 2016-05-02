@@ -12,9 +12,11 @@ body {
   color: rgb(145, 214, 211);
   font-family: 'Corben', cursive;
 }
-main header {
-  max-width: 500px;
-  margin: auto;
+@media (min-width: 900px) {
+  main header {
+    width: 900px;
+    margin: auto;
+  }
 }
 main header h1#aquaframe {
   text-align: center;
@@ -22,16 +24,16 @@ main header h1#aquaframe {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20%;
-  font-size: 2em;
+  padding: 16%;
+  font-size: 9vw;
   text-align: center;
   width: 100%;
   font-weight: bold;
   font-family: 'Mountains of Christmas', cursive;
 }
-@media (max-width: 30em) {
+@media (min-width: 900px) {
   main header h1#aquaframe {
-    outline: 1em dashed teal;
+    font-size: 4.2em;
   }
 }
 main nav {

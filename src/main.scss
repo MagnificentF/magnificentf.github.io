@@ -6,14 +6,7 @@ $aqua: rgb(145, 214, 211);
   letter-spacing: .1em;
 }
 
-@define-mixin page {
-  max-width: 500px;
-  margin: auto;
-}
-
-@custom-media --small-viewport (max-width: 30em);
-
-
+@custom-media --desktop (min-width: 900px);
 
 // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 html {
@@ -31,21 +24,24 @@ body {
 }
 main {
   header {
-    @mixin page;
+    @media (--desktop) {
+      width: 900px;
+      margin: auto;
+    }
     h1#aquaframe {
       text-align: center;
       background-image: url('/images/aquaframe.png');
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
-      padding: 20%;
-      font-size: 2em;
+      padding: 16%;
+      font-size: 9vw;
       text-align: center;
       width: 100%;
       font-weight: bold;
       font-family: 'Mountains of Christmas', cursive;
-      @media (--small-viewport) {
-        outline: 1em dashed teal;
+      @media (--desktop) {
+        font-size: 4.2em;
       }
     }
   }
