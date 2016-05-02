@@ -6,9 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "node build",
-    "dev": "concurrent \"npm run start\" \"node watch\"",
-    "check": "npm-check -u",
-    "kill": "killall -9 npm && killall -9 node"
+    "kill": "killall -9 npm && killall -9 node",
+    "start": "concurrent \"node server.js\" \"node watch\""
   },
   "repository": {
     "type": "git",
