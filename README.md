@@ -9,5 +9,4 @@ to start the development preview server type the following command on the comman
 `npm run dev`
 
 ## Todo
-* [ ] Finish entering artwork into data.json
-* [ ] Learn a whole bunch of new programs
+- [ ] Finish entering artwork into data.json
