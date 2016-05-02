@@ -6,7 +6,7 @@
 
 to start the development preview server type the following command on the command line
 
-`npm run dev`
+`npm install && npm start`
 
 ## Todo
 * [ ] Finish entering artwork into data.json
