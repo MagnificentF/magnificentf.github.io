@@ -1,5 +1,4 @@
 
-/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
   box-sizing: border-box;
 }
@@ -13,29 +12,29 @@ body {
   color: rgb(145, 214, 211);
   font-family: 'Corben', cursive;
 }
-main header {
-  max-width: 500px;
-  margin: auto;
-  position: relative;
+@media (min-width: 900px) {
+  main header {
+    width: 900px;
+    margin: auto;
+  }
 }
-main header #aquaframe {
+main header h1#aquaframe {
   text-align: center;
   background-image: url('/images/aquaframe.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  padding: 21%;
-}
-main header h1 {
-  font-size: 2em;
+  padding: 16%;
+  font-size: 9vw;
   text-align: center;
   width: 100%;
-  position: absolute;
-  top: 0;
-  padding: 10%;
   font-weight: bold;
   font-family: 'Mountains of Christmas', cursive;
+}
+@media (min-width: 900px) {
+  main header h1#aquaframe {
+    font-size: 4.2em;
+  }
 }
 main nav {
   margin: auto;
