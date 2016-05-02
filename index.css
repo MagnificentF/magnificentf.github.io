@@ -54,9 +54,15 @@ main nav a:hover {
 main article {
   display: none;
 }
+main article#home {
+  display: block;
+}
 main article:target {
   position: relative;
   display: block;
+}
+main article:target ~ #home {
+  display: none;
 }
 main article h2 {
   font-family: 'Life Savers', serif;

@@ -24,23 +24,30 @@ html
         a(href='#animation') Animation
         a(href='#contact') Contact
         a(href='#about') About
+
       article#illustration
         each item, key in data.illustration
           +exhibit(key, item.title, item.description)
+
       article#painting
         h2 Painting
+
       article#sculpture
         h2 Sculpture
+
       article#animation
         h2 Animation
+
       article#contact
         h2 Contact
-
         p For information about current or upcoming shows, purchasing, etc. email
             a(href='mailto: MagnificentF@gmail.com') MagnificentF@gmail.com
-
         p High quality custom prints can be purchased at
           a(href='http://www.imagekind.com/artists/MagnificentF/Feathers_and_Frockcoats/fine-art-prints') Imagekind
 
       article#about
         h2 About
+
+      article#home
+        h2 Welcome
+        p homepage content can go here
