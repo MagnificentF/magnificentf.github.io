@@ -11,6 +11,10 @@ $aqua: rgb(145, 214, 211);
   margin: auto;
 }
 
+@custom-media --small-viewport (max-width: 30em);
+
+
+
 // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 html {
   box-sizing: border-box;
@@ -40,6 +44,9 @@ main {
       width: 100%;
       font-weight: bold;
       font-family: 'Mountains of Christmas', cursive;
+      @media (--small-viewport) {
+        outline: 1em dashed teal;
+      }
     }
   }
 

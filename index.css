@@ -29,6 +29,11 @@ main header h1#aquaframe {
   font-weight: bold;
   font-family: 'Mountains of Christmas', cursive;
 }
+@media (max-width: 30em) {
+  main header h1#aquaframe {
+    outline: 1em dashed teal;
+  }
+}
 main nav {
   margin: auto;
   text-align: center;

@@ -27,7 +27,7 @@
     "findit": "^2.0.0",
     "node-static": "^0.7.7",
     "postcss": "^5.0.19",
-    "postcss-inline-comment": "^2.0.0",
+    "postcss-custom-media": "^5.0.1",
     "postcss-media-variables": "^2.0.0",
     "postcss-mixins": "^4.0.1",
     "postcss-nested": "^1.0.0",

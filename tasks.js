@@ -8,7 +8,6 @@ function css (){
 	try {
 		postcss([
 			//require('post-media-variables'),
-			//require('postcss-inline-comment')(),
 			require('postcss-mixins')({
 				mixins: {
 					exhibits: require('./src/exhibits')
@@ -16,7 +15,8 @@ function css (){
 			}),
 			require('postcss-simple-vars'),
 			require('postcss-nested'),
-			require('postcss-strip-inline-comments')
+			require('postcss-strip-inline-comments'),
+			require('postcss-custom-media')
 		])
 			.process(fs.readFileSync(config.cssSrc, 'utf8'), {
 				from: config.cssSrc,
