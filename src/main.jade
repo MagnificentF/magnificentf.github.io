@@ -17,8 +17,10 @@ html
     link(href='https://fonts.googleapis.com/css?family=Corben|Mountains+of+Christmas:700|Life+Savers:700' rel='stylesheet' type='text/css')
   body
     main
+
       header
         h1#aquaframe The Magnificent Miss F.
+
       nav
         a(href='#illustration') Illustration
         a(href='#painting') Painting
@@ -51,6 +53,8 @@ html
         h2 About
 
       //- this page must be last
+
       article#home
+        h2 Welcome
         each item, id in data.home
           +exhibit(id, item)
