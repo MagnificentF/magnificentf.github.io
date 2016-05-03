@@ -63,10 +63,17 @@ main {
 
   article {
     display: none;
+    &#home {
+      display: block;
+    }
     &:target {
       position: relative;
       display: block;
+      & ~ #home {
+        display: none;
+      }
     }
+
     h2 {
       @mixin lifesavers;
     }

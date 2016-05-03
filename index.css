@@ -54,9 +54,15 @@ main nav a:hover {
 main article {
   display: none;
 }
+main article#home {
+  display: block;
+}
 main article:target {
   position: relative;
   display: block;
+}
+main article:target ~ #home {
+  display: none;
 }
 main article h2 {
   font-family: 'Life Savers', serif;
@@ -72,6 +78,50 @@ main article figure.exhibit figcaption {
   width: 100%;
   top: 100%;
   left: 0;
+}
+
+#illustrationSpecimen {
+  width: 26%;
+  padding: 16% 0;
+  margin: 3% 0 0 0;
+  left: 5%;
+  background-image: url(images/Claudette.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#paintingSpecimen {
+  width: 25%;
+  padding: 12.5% 0;
+  margin: 5% 0 0 0;
+  left: 37%;
+  background-image: url(images/His_Lovely_Assistant.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#sculptureSpecimen {
+  width: 26%;
+  padding: 16% 0;
+  margin: 3% 0 0 0;
+  left: 69%;
+  background-image: url(images/Priscilla_And_Peach.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#animationSpecimen {
+  width: 30%;
+  padding: 17% 0;
+  margin: 50% 0 0 0;
+  left: 5%;
+  background-image: url(images/Max_And_Jax.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 
 #claudette {

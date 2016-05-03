@@ -1,8 +1,10 @@
-mixin exhibit(id, title, description)
-  figure.exhibit(id=id)
-    figcaption
-      h3= title
-      p= description
+mixin exhibit(id, item)
+  - var linkAttrs = item.link ? {href: item.link} : {};
+  a&attributes(linkAttrs)
+    figure.exhibit(id=id)
+      figcaption
+        h3= item.title
+        p= item.description
 doctype html
 html
   head
@@ -15,8 +17,10 @@ html
     link(href='https://fonts.googleapis.com/css?family=Corben|Mountains+of+Christmas:700|Life+Savers:700' rel='stylesheet' type='text/css')
   body
     main
+
       header
         h1#aquaframe The Magnificent Miss F.
+
       nav
         a(href='#illustration') Illustration
         a(href='#painting') Painting
@@ -24,23 +28,33 @@ html
         a(href='#animation') Animation
         a(href='#contact') Contact
         a(href='#about') About
+
       article#illustration
-        each item, key in data.illustration
-          +exhibit(key, item.title, item.description)
+        each item, id in data.illustration
+          +exhibit(id, item)
+
       article#painting
         h2 Painting
+
       article#sculpture
         h2 Sculpture
+
       article#animation
         h2 Animation
+
       article#contact
         h2 Contact
-
         p For information about current or upcoming shows, purchasing, etc. email
             a(href='mailto: MagnificentF@gmail.com') MagnificentF@gmail.com
-
         p High quality custom prints can be purchased at
           a(href='http://www.imagekind.com/artists/MagnificentF/Feathers_and_Frockcoats/fine-art-prints') Imagekind
 
       article#about
         h2 About
+
+      //- this page must be last
+
+      article#home
+        h2 Welcome
+        each item, id in data.home
+          +exhibit(id, item)
