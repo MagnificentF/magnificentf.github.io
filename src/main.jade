@@ -1,8 +1,10 @@
-mixin exhibit(id, title, description)
-  figure.exhibit(id=id)
-    figcaption
-      h3= title
-      p= description
+mixin exhibit(id, title, description, link)
+  - var linkAttrs = link ? {href: link} : {};
+  a&attributes(linkAttrs)
+    figure.exhibit(id=id)
+      figcaption
+        h3= title
+        p= description
 doctype html
 html
   head
@@ -48,6 +50,7 @@ html
       article#about
         h2 About
 
+      //- this page must be last
       article#home
-        h2 Welcome
-        p homepage content can go here
+        each item, key in data.home
+          +exhibit(key, item.title, item.description, item.link)
