@@ -33,7 +33,7 @@ main header h1#aquaframe {
 }
 @media (min-width: 900px) {
   main header h1#aquaframe {
-    font-size: 4.2em;
+    font-size: 3.5em;
   }
 }
 main nav {
