@@ -1,4 +1,46 @@
 {
+  "home": {
+    "illustrationSpecimen": {
+      "link": "#illustration",
+      "title": "Illustration",
+      "description": "Pictures not made with paint",
+      "image": "Claudette.jpg",
+      "width": 26,
+      "height": 32,
+      "top": 3,
+      "left": 5
+    },
+    "paintingSpecimen": {
+      "link": "#painting",
+      "title": "Painting",
+      "description": "Pictures made of paint",
+      "image": "His_Lovely_Assistant.png",
+      "width": 25,
+      "height": 25,
+      "top": 5,
+      "left": 37
+    },
+    "sculptureSpecimen": {
+      "link": "#sculpture",
+      "title": "Sculpture",
+      "description": "Three dimensional things",
+      "image": "Priscilla_And_Peach.jpg",
+      "width": 26,
+      "height": 32,
+      "top": 3,
+      "left": 69
+    },
+    "animationSpecimen": {
+      "link": "#animation",
+      "title": "Animation",
+      "description": "Pictures that move",
+      "image": "Max_And_Jax.png",
+      "width": 30,
+      "height": 34,
+      "top": 50,
+      "left": 5
+    }
+  },
   "illustration": {
     "claudette": {
       "title": "Claudette",

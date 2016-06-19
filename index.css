@@ -1,5 +1,4 @@
 
-/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
   box-sizing: border-box;
 }
@@ -7,35 +6,35 @@ html {
   box-sizing: inherit;
 }
 body {
-	background-image: url('/images/background.jpg');
-	background-repeat: repeat;
-	background-position: center;
-	color: rgb(145, 214, 211);
-	font-family: 'Corben', cursive;
+  background-image: url('/images/background.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  color: rgb(145, 214, 211);
+  font-family: 'Corben', cursive;
 }
-main header {
-  max-width: 500px;
-  margin: auto;
-  position: relative;
+@media (min-width: 900px) {
+  main header {
+    width: 900px;
+    margin: auto;
+  }
 }
-main header #aquaframe {
+main header h1#aquaframe {
   text-align: center;
   background-image: url('/images/aquaframe.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  padding: 21%;
-}
-main header h1 {
-  font-size: 2em;
+  padding: 16%;
+  font-size: 9vw;
   text-align: center;
   width: 100%;
-  position: absolute;
-  top: 0;
-  padding: 10%;
   font-weight: bold;
   font-family: 'Mountains of Christmas', cursive;
+}
+@media (min-width: 900px) {
+  main header h1#aquaframe {
+    font-size: 4.2em;
+  }
 }
 main nav {
   margin: auto;
@@ -55,9 +54,15 @@ main nav a:hover {
 main article {
   display: none;
 }
+main article#home {
+  display: block;
+}
 main article:target {
   position: relative;
   display: block;
+}
+main article:target ~ #home {
+  display: none;
 }
 main article h2 {
   font-family: 'Life Savers', serif;
@@ -73,6 +78,50 @@ main article figure.exhibit figcaption {
   width: 100%;
   top: 100%;
   left: 0;
+}
+
+#illustrationSpecimen {
+  width: 26%;
+  padding: 16% 0;
+  margin: 3% 0 0 0;
+  left: 5%;
+  background-image: url(images/Claudette.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#paintingSpecimen {
+  width: 25%;
+  padding: 12.5% 0;
+  margin: 5% 0 0 0;
+  left: 37%;
+  background-image: url(images/His_Lovely_Assistant.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#sculptureSpecimen {
+  width: 26%;
+  padding: 16% 0;
+  margin: 3% 0 0 0;
+  left: 69%;
+  background-image: url(images/Priscilla_And_Peach.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#animationSpecimen {
+  width: 30%;
+  padding: 17% 0;
+  margin: 50% 0 0 0;
+  left: 5%;
+  background-image: url(images/Max_And_Jax.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 
 #claudette {
