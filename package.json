@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "node build",
     "kill": "killall -9 npm && killall -9 node",
-    "start": "concurrent \"node server.js\" \"node watch\""
+    "start": "concurrent \"static --a $IP -p $PORT \" \"node watch\""
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "findit": "^2.0.0",
     "node-static": "^0.7.7",
     "postcss": "^5.0.20",
+    "postcss-color-function": "^2.0.1",
     "postcss-custom-media": "^5.0.1",
     "postcss-mixins": "^4.0.1",
     "postcss-nested": "^1.0.0",

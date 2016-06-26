@@ -144,6 +144,25 @@
         <h2>Contact</h2>
         <p>For information about current or upcoming shows, purchasing, etc. email<a href="mailto: MagnificentF@gmail.com">MagnificentF@gmail.com</a></p>
         <p>High quality custom prints can be purchased at<a href="http://www.imagekind.com/artists/MagnificentF/Feathers_and_Frockcoats/fine-art-prints">Imagekind</a></p>
+        <form method="post" action="https://formspree.io/magnificentf@gmail.com">
+          <label>Email
+            <input type="email" name="email" placeholder="you@domain.com">
+          </label>
+          <label>Subject
+            <input type="text" name="_subject">
+          </label>
+          <label>Message
+            <textarea name="message"></textarea>
+          </label>
+          <label class="right">
+            <input type="submit" value="Send">
+          </label>
+          <input type="text" name="_gotcha" style="display:none">
+          <input type="hidden" name="_next" value="#thanks">
+        </form>
+      </article>
+      <article id="thanks">
+        <h2>Thanks for your email</h2>
       </article>
       <article id="about">
         <h2>About</h2>

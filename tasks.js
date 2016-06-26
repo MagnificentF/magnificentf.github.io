@@ -15,7 +15,8 @@ function css (){
 			require('postcss-simple-vars'),
 			require('postcss-nested'),
 			require('postcss-strip-inline-comments'),
-			require('postcss-custom-media')
+			require('postcss-custom-media'),
+			require('postcss-color-function')
 		])
 			.process(fs.readFileSync(config.cssSrc, 'utf8'), {
 				from: config.cssSrc,

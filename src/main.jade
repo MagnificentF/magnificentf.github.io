@@ -49,6 +49,26 @@ html
         p High quality custom prints can be purchased at
           a(href='http://www.imagekind.com/artists/MagnificentF/Feathers_and_Frockcoats/fine-art-prints') Imagekind
 
+        form(method='post', action='https://formspree.io/magnificentf@gmail.com')
+
+          label Email
+            input(type='email', name='email', placeholder='you@domain.com')
+
+          label Subject
+            input(type='text', name='_subject')
+
+          label Message
+            textarea(name='message')
+
+          label.right
+            input(type='submit', value='Send')
+
+          input(type='text', name='_gotcha', style='display:none')
+          input(type='hidden', name='_next', value='#thanks')
+
+      article#thanks
+        h2 Thanks for your email
+
       article#about
         h2 About
 
