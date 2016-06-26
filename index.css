@@ -79,6 +79,36 @@ main article figure.exhibit figcaption {
   top: 100%;
   left: 0;
 }
+main article form {
+  font-size: 2em;
+}
+main article form label {
+  display: flex;
+  vertical-align: middle;
+  margin: 1em;
+}
+main article form label.right {
+  justify-content: flex-end;
+}
+main article form label [type=text], main article form label [type=email], main article form label textarea {
+  font-size: 1em;
+  vertical-align: middle;
+  color: rgb(94, 139, 137);
+  background: black;
+  border: 1px solid gray;
+  border-radius: .25em;
+  padding: .5em;
+  flex-grow: 1;
+  margin-left: 1em;
+}
+main article form label [type=submit] {
+  background: black;
+  border: 1px solid gray;
+  border-radius: .25em;
+  color: white;
+  font-size: 1em;
+  padding: .5em;
+}
 
 #illustrationSpecimen {
   width: 26%;
