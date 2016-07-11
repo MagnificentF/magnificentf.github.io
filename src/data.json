@@ -217,7 +217,7 @@
   "painting": {
     "Oliver_A_Hummingbird": {
       "title": "Oliver A. Hummingbird",
-      "description": "",
+      "description": "Is quite fond of his hat.<br>He is quite sure it is the tallest hat<br>any hummingbird ever had.<br>Sold, prints available",
       "image": "Oliver_A_Hummingbird.png",
       "width": 30,
       "height": 38,
@@ -233,64 +233,64 @@
       "top": 5,
       "left": 37
     },
-    "priscillaAndPeach": {
-      "title": "Priscilla and Peach",
-      "description": "Come one! Come all!  Witness these hypnotizing beauties! Is she one girl or two? Stare deep into her spinning wand and let her make up your mind for you!",
-      "image": "Priscilla_And_Peach.jpg",
+    "Mercy_A_Bluebird": {
+      "title": "Mercy A. Bluebird",
+      "description": "",
+      "image": "Mercy_A._Bluebird.jpg",
       "width": 26,
       "height": 32,
       "top": 3,
       "left": 69
     },
-    "maxAndJax": {
-      "title": "Max and Jax",
-      "description": "A story of siamese twin teddy bears, who covet their independence so passionately that neither might survive... Read their story here: http://magnificentf.wix.com/maxandjax",
-      "image": "Max_And_Jax.png",
+    "Margory_A_Quail": {
+      "title": "Margory A. Quail",
+      "description": "",
+      "image": "Margory_A._Quail.png",
       "width": 30,
       "height": 34,
       "top": 50,
       "left": 5
     },
-    "mementoMori": {
-      "title": "Memento Mori",
+    "Winthrop_A_Owl": {
+      "title": "Winthrop A. Owl",
       "description": "",
-      "image": "Memento_Mori.jpg",
+      "image": "Winthrop_A._Owl.jpg",
       "width": 40,
       "height": 24,
       "top": 50,
       "left": 49
     },
-    "theMoon": {
-      "title": "The Moon",
+    "Thaddeus_A_Peacock": {
+      "title": "Thaddeus A. Peacock",
       "description": "",
-      "image": "The_Moon.jpg",
+      "image": "Thaddeus_A._Peacock.jpg",
       "width": 30,
       "height": 24,
       "top": 82,
       "left": 64
     },
-    "bandLogo": {
-      "title": "Band Logo",
-      "description": "\"Ten paces and fire!\" my friends' father shouted. The two men strode forth, turned, and blasted each other with birdshot. \"Why?\" we asked him. \"We were bored.\"",
-      "image": "Band_Logo.png",
+    "Iphignea_A_Magpie": {
+      "title": "Iphignea A. Magpie",
+      "description": "",
+      "image": "Iphignea_A._Magpie.jpg",
       "width": 21,
       "height": 21,
       "top": 78,
       "left": 39
     },
-    "theSalesman": {
-      "title": "The Salesman",
+    "Fingers_A_Pelican": {
+      "title": "Fingers A. Pelican and Jimmy The Fish",
       "description": "",
-      "image": "The_Salesman.jpg",
+      "image": "Fingers_A._Pelican.png",
       "width": 25.5,
       "height": 31,
       "top": 99,
       "left": 5
     },
-    "voodooDoll": {
-      "title": "Voodoo Doll",
+    "Lenore_A_Raven": {
+      "title": "Lenore A. Raven",
       "description": "",
-      "image": "Voodoo_Doll.jpg",
+      "image": "Lenore_A._Raven.jpg",
       "width": 25.5,
       "height": 31,
       "top": 116,
