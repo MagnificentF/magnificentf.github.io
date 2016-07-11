@@ -373,3 +373,14 @@ main article form label [type=submit] {
   background-position: top;
   background-size: cover;
 }
+
+#Lysander_A_Albatros {
+  width: 25%;
+  padding: 14.5% 0;
+  margin: 5% 0 0 0;
+  left: 37%;
+  background-image: url(images/Lysander_A._Albatros.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
