@@ -30,11 +30,14 @@ html
         a(href='#about') About
 
       article#illustration
+        h2 Illustration
         each item, id in data.illustration
           +exhibit(id, item)
 
       article#painting
         h2 Painting
+        each item, id in data.painting
+          +exhibit(id, item)
 
       article#sculpture
         h2 Sculpture

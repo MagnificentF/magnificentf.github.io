@@ -362,3 +362,14 @@ main article form label [type=submit] {
   background-position: top;
   background-size: cover;
 }
+
+#Oliver_A_Hummingbird {
+  width: 30%;
+  padding: 19% 0;
+  margin: 3% 0 0 0;
+  left: 5%;
+  background-image: url(images/Oliver_A_Hummingbird.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}

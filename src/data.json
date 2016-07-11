@@ -215,12 +215,12 @@
     }
   },
   "painting": {
-    "Oliver_A._Hummingbird": {
+    "Oliver_A_Hummingbird": {
       "title": "Oliver A. Hummingbird",
       "description": "",
-      "image": "Oliver_A._Hummingbird.png",
-      "width": 26,
-      "height": 32,
+      "image": "Oliver_A_Hummingbird.png",
+      "width": 30,
+      "height": 38,
       "top": 3,
       "left": 5
     }
