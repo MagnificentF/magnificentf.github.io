@@ -213,5 +213,16 @@
       "top": 306,
       "left": 54
     }
+  },
+  "painting": {
+    "Oliver_A._Hummingbird": {
+      "title": "Oliver A. Hummingbird",
+      "description": "",
+      "image": "Oliver_A._Hummingbird.png",
+      "width": 26,
+      "height": 32,
+      "top": 3,
+      "left": 5
+    }
   }
 }
