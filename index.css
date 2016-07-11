@@ -10,7 +10,7 @@ body {
   background-repeat: repeat;
   background-position: center;
   color: rgb(145, 214, 211);
-  font-family: 'Corben', cursive;
+  font-family: 'Corben', Georgia, cursive;
 }
 @media (min-width: 900px) {
   main header {
@@ -45,7 +45,7 @@ main nav a {
   text-decoration: none;
   display: inline-block;
   padding: 1em;
-  font-family: 'Life Savers', serif;
+  font-family: 'Life Savers', Georgia, serif;
   letter-spacing: .1em;
 }
 main nav a:hover {
@@ -65,7 +65,7 @@ main article:target ~ #home {
   display: none;
 }
 main article h2 {
-  font-family: 'Life Savers', serif;
+  font-family: 'Life Savers', Georgia, serif;
   letter-spacing: .1em;
 }
 main article figure.exhibit {
