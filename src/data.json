@@ -217,7 +217,7 @@
   "painting": {
     "Oliver_A_Hummingbird": {
       "title": "Oliver A. Hummingbird",
-      "description": "Is quite fond of his hat.<br>He is quite sure it is the tallest hat<br>any hummingbird ever had.<br>Sold, prints available",
+      "description": "Is quite fond of his hat. He is quite sure it is the tallest hat any hummingbird ever had. Sold, prints available",
       "image": "Oliver_A_Hummingbird.png",
       "width": 30,
       "height": 38,
@@ -226,7 +226,7 @@
     },
     "Lysander_A_Albatros": {
       "title": "Lysander A. Albatros",
-      "description": "",
+      "description": "Is of a devious nature, and is often found to be up to no good. Sold, prints available",
       "image": "Lysander_A._Albatros.jpg",
       "width": 25,
       "height": 29,
@@ -235,7 +235,7 @@
     },
     "Mercy_A_Bluebird": {
       "title": "Mercy A. Bluebird",
-      "description": "",
+      "description": "Devoted her life to those stricken with avian influenza. Often sheds tears at the thought of salt spoons who've become lost through cracks in the floorboards. Sold, prints available",
       "image": "Mercy_A._Bluebird.jpg",
       "width": 26,
       "height": 32,
@@ -244,7 +244,7 @@
     },
     "Margory_A_Quail": {
       "title": "Margory A. Quail",
-      "description": "",
+      "description": "Dashes in front of cars sending them careening off into ditches, whereupon their drivers inquire at a local truck stop, and find that she was killed in an auto accident ten years ago this very night! Sold, prints available",
       "image": "Margory_A._Quail.png",
       "width": 30,
       "height": 34,
@@ -253,7 +253,7 @@
     },
     "Winthrop_A_Owl": {
       "title": "Winthrop A. Owl",
-      "description": "",
+      "description": "Enjoys long strolls in the dead of night, and peering at people suspiciously through his monocle. He also finds fancy trousers much to his liking. Sold, prints available",
       "image": "Winthrop_A._Owl.jpg",
       "width": 40,
       "height": 24,
@@ -262,7 +262,7 @@
     },
     "Thaddeus_A_Peacock": {
       "title": "Thaddeus A. Peacock",
-      "description": "",
+      "description": "Takes great delight in his finery, yet cannot dress himself as he is deterred by his deathly fear of buttons. Sold, prints available",
       "image": "Thaddeus_A._Peacock.jpg",
       "width": 30,
       "height": 24,
@@ -271,7 +271,7 @@
     },
     "Iphignea_A_Magpie": {
       "title": "Iphignea A. Magpie",
-      "description": "",
+      "description": "Is suspected of poisoning eight husbands, and has an affection for moths of the tasty variety. Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Iphignea_A._Magpie.jpg",
       "width": 21,
       "height": 21,
@@ -280,7 +280,7 @@
     },
     "Fingers_A_Pelican": {
       "title": "Fingers A. Pelican and Jimmy The Fish",
-      "description": "",
+      "description": "Are suspected of foul play, but you won't mention it if you value your kneecaps. Sold, prints available",
       "image": "Fingers_A._Pelican.png",
       "width": 25.5,
       "height": 31,
@@ -289,98 +289,107 @@
     },
     "Lenore_A_Raven": {
       "title": "Lenore A. Raven",
-      "description": "",
+      "description": "Finds pathological entertainment in plucking at shiny objects. Often found attacking door knockers just after they have been polished, and disturbing their inhabitants. Sold, prints available",
       "image": "Lenore_A._Raven.jpg",
       "width": 25.5,
       "height": 31,
       "top": 116,
       "left": 36
     },
-    "goth": {
-      "title": "Goth",
-      "description": "",
-      "image": "Goth.png",
+    "Chauncey_A_Rockdove": {
+      "title": "Chauncey A. Rockdove",
+      "description": "Has an inclination toward bowties, and tends to favor the taste of pocket watches. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Chauncey_A._Rockdove.jpg",
       "width": 26,
       "height": 30,
       "top": 114,
       "left": 68
     },
-    "thePrototype": {
-      "title": "The Prototype",
-      "description": "",
-      "image": "The_Prototype.jpg",
+    "Aloysius_A_Flamingo": {
+      "title": "Aloysius A. Flamingo",
+      "description": "Claims to have come from Paris. Enjoys strolling in the park and eating ice cream, and can not be found doing much else. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Aloysius_A._Flamingo.jpg",
       "width": 23,
       "height": 37,
       "top": 137,
       "left": 5
     },
-    "ouija": {
-      "title": "Ouija",
-      "description": "",
-      "image": "Ouija.jpg",
+    "Byron_A_Hornedowl": {
+      "title": "Byron A. Hornedowl",
+      "description": "Is taken to lurking about and giving ominous stares.  It is rumored that he will devour an unattended fledgling, though evidence of this is yet to be found. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Byron_A._Hornedowl.jpg",
       "width": 33,
       "height": 22,
       "top": 154,
       "left": 33
     },
-    "theNightmareMuncher": {
-      "title": "The Nightmare Muncher",
-      "description": "",
-      "image": "The_Nightmare_Muncher.jpg",
+    "King_Of_Hearts": {
+      "title": "The King Of Hearts",
+      "description": "The King of Hearts. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "King_Of_Hearts.jpg",
       "width": 22,
       "height": 28,
       "top": 151,
       "left": 71.5
     },
-    "zylphia": {
-      "title": "Zylphia",
-      "description": "Zylphia had misplaced her pet, she paced about, she cursed and fret. She found the door'd been left ajar but couldn't dream that he'd go far. She looked around with great suspense, while all admired her fashion sense.",
-      "image": "Zylphia.png",
+    "Sunset": {
+      "title": "I Feel Like A Sunset",
+      "description": "I Feel Like A Sunset. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Sunset.jpg",
       "width": 37,
       "height": 45,
       "top": 180,
       "left": 8
     },
-    "violetAndVivian": {
-      "title": "Violet and Vivian",
-      "description": "Violet and Vivian, two sisters share one trunk. When one drinks wine the other finds that she has gotten drunk. One likes dogs, the other cats, they share most things but never hats. They find that they have twice the fun, two heads are better than just one.",
-      "image": "Violet_And_Vivian.png",
+    "Love": {
+      "title": "Love Feels Like",
+      "description": "Love Feels Like.  Sold",
+      "image": "Love.jpg",
       "width": 37,
       "height": 45,
       "top": 184,
       "left": 52
     },
-    "vertiline": {
-      "title": "Vertiline",
-      "description": "Vertiline, oh Vertiline, She met her end on Valentines. She stepped into the lions cage and tamed them there upon the stage. The lions all behaved so well, was to the tiger that she fell.",
-      "image": "Vertiline.png",
+    "Ooze": {
+      "title": "Ooze",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Ooze.jpg",
       "width": 37,
       "height": 45,
       "top": 246,
       "left": 54
     },
-    "eudora": {
-      "title": "Eudora",
-      "description": "Eudora, much to her dismay, perished deep beneath the waves. And to this day she haunts the seas, but her story's not sad you see, for in her watery grave her bones did fall in love with Davy Jones.",
-      "image": "Eudora.png",
+    "Content": {
+      "title": "Je Suis Content",
+      "description": "Sold",
+      "image": "Content.jpg",
       "width": 38,
       "height": 47,
       "top": 240,
       "left": 9
     },
-    "flora": {
-      "title": "Flora",
-      "description": "Flora hates to sit up straight, to be proper is frightening. But she can't move a hair since the day she was dared to get herself struck by lightning. She cannot help but look morose, for now her body's comatose. But now she has a good excuse for being lazy and obtuse.",
-      "image": "Flora.png",
+    "Lurk": {
+      "title": "Lurk",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Lurk.jpg",
       "width": 38,
       "height": 45,
       "top": 302,
       "left": 8
     },
-    "maryAnnCotton": {
-      "title": "Mary Ann Cotton",
-      "description": "Mary Ann Cotton whose core was quite rotten had herself husbands galore. By the time she was hung for what she had done, she had gotten rid of four, put sixteen children in their graves, and killed her mother, and a maid. Perhaps she suffered too much stress from a foul case of PMS.",
-      "image": "Mary_Ann_Cotton.png",
+    "My_Friends_Cat": {
+      "title": "My Friends Cat",
+      "description": "",
+      "image": "My_Friends_Cat.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 306,
+      "left": 54
+    },
+    "Life_On_Mars": {
+      "title": "Life On Mars",
+      "description": "Sold",
+      "image": "Life_On_Mars.jpg",
       "width": 38,
       "height": 45,
       "top": 306,
