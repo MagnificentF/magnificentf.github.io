@@ -1,16 +1,14 @@
-var chokidar = require('chokidar');
-var tasks = require('./tasks');
+const chokidar = require('chokidar');
+const tasks = require('./tasks');
+const color = require('chalk');
+const debounce = require('lodash.debounce');
 
+const css = debounce(tasks.css, 1000);
 chokidar.watch('src/*.(scss|json|js)')
-	.on('all', function(event, path) {
-  	console.log(event, path);
-		setTimeout(tasks.css, 1000);
-	});
+	.on('all', (event, path) => setTimeout(css, 1000));
 
+const html = debounce(tasks.html, 1000);
 chokidar.watch('src/*.(jade|json)')
-	.on('all', function(event, path) {
-  	console.log(event, path);
-		setTimeout(tasks.html, 1000);
-	});
+	.on('all', (event, path) => setTimeout(html, 1000));
 
-console.info('watchers set up');
+console.info(color.green('watchers set up'));
