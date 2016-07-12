@@ -1,7 +1,8 @@
-var static = require('node-static');
-var config = require('./config');
+const static = require('node-static');
+const config = require('./config');
+const color = require('chalk');
 
-var file = new static.Server('./');
+const file = new static.Server('./');
 
 require('http').createServer(function (request, response) {
     request.addListener('end', function () {
@@ -9,4 +10,4 @@ require('http').createServer(function (request, response) {
     }).resume();
 }).listen(config.port, config.ip);
 
-console.info("Static web server started");
+console.info(color.blue.underline(`Server started at ${config.ip}:${config.port}`));
