@@ -576,6 +576,60 @@
       "height": 45,
       "top": 306,
       "left": 54
+    },
+    "Augustus": {
+      "title": "Augustus",
+      "description": "Sold",
+      "image": "Augustus.jpg",
+      "width": 37,
+      "height": 45,
+      "top": 350,
+      "left": 52
+    },
+    "Imp": {
+      "title": "Imp",
+      "description": "I keep forgetting to finish my tea, but when I go to clean the cup, it's empty...",
+      "image": "Imp.jpg",
+      "width": 37,
+      "height": 45,
+      "top": 410,
+      "left": 54
+    },
+    "Nightmare": {
+      "title": "A Nighttime Friend",
+      "description": "",
+      "image": "Nightmare.jpg",
+      "width": 38,
+      "height": 47,
+      "top": 420,
+      "left": 9
+    },
+    "Aloicious_And_Abe": {
+      "title": "Aloicious and Abe",
+      "description": "Private Collection",
+      "image": "Aloicious_And_Abe.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 500,
+      "left": 8
+    },
+    "Inseperable": {
+      "title": "Inseperable",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Inseperable.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 500,
+      "left": 54
+    },
+    "Brothers": {
+      "title": "Brothers",
+      "description": "",
+      "image": "Brothers.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 500,
+      "left": 54
     }
   }
 }
