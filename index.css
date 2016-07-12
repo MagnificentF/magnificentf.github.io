@@ -68,6 +68,8 @@ main article:target ~ #home {
 main article h2 {
   font-family: 'Life Savers', Georgia, serif;
   letter-spacing: .1em;
+  padding-left: 10%;
+  font-size: 3vw;
 }
 main article figure.exhibit {
   position: absolute;

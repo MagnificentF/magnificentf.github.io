@@ -76,6 +76,8 @@ main {
 
     h2 {
       @mixin lifesavers;
+      padding-left: 10%;
+      font-size: 3vw;
     }
     figure.exhibit {
       position: absolute;
