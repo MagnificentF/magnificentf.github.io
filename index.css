@@ -583,3 +583,157 @@ main article form label [type=submit] {
   background-position: top;
   background-size: cover;
 }
+
+#Mirth {
+  width: 30%;
+  padding: 19% 0;
+  margin: 3% 0 0 0;
+  left: 5%;
+  background-image: url(images/Mirth.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Grief {
+  width: 25%;
+  padding: 14.5% 0;
+  margin: 5% 0 0 0;
+  left: 37%;
+  background-image: url(images/Grief.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Wonder {
+  width: 26%;
+  padding: 16% 0;
+  margin: 3% 0 0 0;
+  left: 69%;
+  background-image: url(images/Wonder.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Iphignea {
+  width: 30%;
+  padding: 17% 0;
+  margin: 50% 0 0 0;
+  left: 5%;
+  background-image: url(images/Iphignea.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Princess_And_Pea {
+  width: 40%;
+  padding: 12% 0;
+  margin: 50% 0 0 0;
+  left: 49%;
+  background-image: url(images/Princess_And_Pea.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Punk {
+  width: 30%;
+  padding: 12% 0;
+  margin: 82% 0 0 0;
+  left: 64%;
+  background-image: url(images/Punk.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#The_Rubbish_Service {
+  width: 21%;
+  padding: 10.5% 0;
+  margin: 78% 0 0 0;
+  left: 39%;
+  background-image: url(images/The_Rubbish_Service.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#The_Knife_Thrower {
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 99% 0 0 0;
+  left: 5%;
+  background-image: url(images/The_Knife_Thrower.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Cicada_Sugar {
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 116% 0 0 0;
+  left: 36%;
+  background-image: url(images/Cicada_Sugar.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Cicada_Teapot {
+  width: 26%;
+  padding: 15% 0;
+  margin: 114% 0 0 0;
+  left: 68%;
+  background-image: url(images/Cicada_Teapot.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Cicada_Creamer {
+  width: 23%;
+  padding: 18.5% 0;
+  margin: 137% 0 0 0;
+  left: 5%;
+  background-image: url(images/Cicada_Creamer.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Butterfly_Creamer_1 {
+  width: 33%;
+  padding: 11% 0;
+  margin: 154% 0 0 0;
+  left: 33%;
+  background-image: url(images/Butterfly_Creamer_1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Lobster_Pot {
+  width: 22%;
+  padding: 14% 0;
+  margin: 151% 0 0 0;
+  left: 71.5%;
+  background-image: url(images/Lobster_Pot.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Butterfly_Creamer_2 {
+  width: 37%;
+  padding: 22.5% 0;
+  margin: 180% 0 0 0;
+  left: 8%;
+  background-image: url(images/Butterfly_Creamer_2.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
