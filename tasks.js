@@ -1,9 +1,10 @@
 var fs = require('fs');
 var config = require('./config');
+var color = require('chalk');
 
 exports.css = css;
 function css (){
-	console.info('css build task started');
+	console.info(color.cyan('css build task started'));
 	var postcss = require('postcss');
 	try {
 		postcss([
@@ -14,7 +15,7 @@ function css (){
 			}),
 			require('postcss-simple-vars'),
 			require('postcss-nested'),
-			require('postcss-strip-inline-comments'),
+			//require('postcss-strip-inline-comments'),
 			require('postcss-custom-media'),
 			require('postcss-color-function')
 		])
@@ -28,11 +29,11 @@ function css (){
 						fs.writeFileSync(config.cssDest, res.css);
 						//if (res.map)
 							//fs.writeFileSync(config.cssDest +'.map', res.map);
-						console.info('css built');
+						console.info(color.cyan('css built'));
 					}
 				)
 				.catch(function (e) {
-					console.error('css build failed');
+					console.error(color.red('css build failed'));
 					//console.error(e);
 				});
 	} catch(e) {
@@ -43,7 +44,7 @@ function css (){
 
 exports.html = html;
 function html() {
-	console.info('building html');
+	console.info(color.magenta('html build task started'));
 	var pug = require('pug');
 	var tpl = pug.compileFile(
 		config.htmlSrc, {
@@ -55,7 +56,7 @@ function html() {
 		config: config,
 		data: require('./src/data')
 	}));
-  console.log('html built');
+  console.info(color.magenta('html built'));
 }
 
 exports.soften = soften;
@@ -67,7 +68,7 @@ function soften() {
 				var softened = String(data).replace(/\t/g, '  ');
 				fs.writeFile(filePath, softened, (err) => {
 					if (err) throw err;
-					console.log('softened file', filePath);
+					console.info(color.gray(`turned tabs into spaces ${filePath}`));
 				});
 			});
 		});

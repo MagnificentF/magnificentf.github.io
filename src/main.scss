@@ -2,7 +2,7 @@
 $aqua: rgb(145, 214, 211);
 
 @define-mixin lifesavers {
-  font-family: 'Life Savers', serif;
+  font-family: 'Life Savers', Georgia, serif;
   letter-spacing: .1em;
 }
 
@@ -20,7 +20,7 @@ body {
   background-repeat: repeat;
   background-position: center;
   color: $aqua;
-  font-family: 'Corben', cursive;
+  font-family: 'Corben', Georgia, cursive;
 }
 main {
   header {
@@ -34,7 +34,7 @@ main {
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
-      padding: 16%;
+      padding: 17%;
       font-size: 9vw;
       text-align: center;
       width: 100%;
