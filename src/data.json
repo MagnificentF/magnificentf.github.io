@@ -395,5 +395,16 @@
       "top": 306,
       "left": 54
     }
+  },
+  "sculpture": {
+    "Life_On_Mars": {
+      "title": "Life On Mars",
+      "description": "Sold",
+      "image": "Life_On_Mars.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 306,
+      "left": 54
+    }
   }
 }
