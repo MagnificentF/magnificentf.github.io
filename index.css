@@ -737,3 +737,69 @@ main article form label [type=submit] {
   background-position: top;
   background-size: cover;
 }
+
+#Butter {
+  width: 37%;
+  padding: 22.5% 0;
+  margin: 184% 0 0 0;
+  left: 52%;
+  background-image: url(images/Butter.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Blue_Bird {
+  width: 37%;
+  padding: 22.5% 0;
+  margin: 246% 0 0 0;
+  left: 54%;
+  background-image: url(images/Blue_Bird.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Green_Bird {
+  width: 38%;
+  padding: 23.5% 0;
+  margin: 240% 0 0 0;
+  left: 9%;
+  background-image: url(images/Green_Bird.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Purple_Bird {
+  width: 38%;
+  padding: 22.5% 0;
+  margin: 302% 0 0 0;
+  left: 8%;
+  background-image: url(images/Purple_Bird.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Pink_Bird {
+  width: 38%;
+  padding: 22.5% 0;
+  margin: 306% 0 0 0;
+  left: 54%;
+  background-image: url(images/Pink_Bird.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#Yellow_Bird {
+  width: 38%;
+  padding: 22.5% 0;
+  margin: 306% 0 0 0;
+  left: 54%;
+  background-image: url(images/Yellow_Bird.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
