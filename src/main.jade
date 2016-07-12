@@ -31,19 +31,27 @@ html
 
       article#illustration
         h2 Illustration
-        each item, id in data.illustration
-          +exhibit(id, item)
+        if data.illustration
+          each item, id in data.illustration
+            +exhibit(id, item)
 
       article#painting
         h2 Painting
-        each item, id in data.painting
-          +exhibit(id, item)
+        if data.painting
+          each item, id in data.painting
+            +exhibit(id, item)
 
       article#sculpture
         h2 Sculpture
+        if data.sculpture
+          each item, id in data.sculpture
+            +exhibit(id, item)
 
       article#animation
         h2 Animation
+        if data.animation
+          each item, id in data.animation
+            +exhibit(id, item)
 
       article#contact
         h2 Contact
