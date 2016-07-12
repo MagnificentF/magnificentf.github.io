@@ -1,4 +1,5 @@
 
+/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
 html {
   box-sizing: border-box;
 }
@@ -24,7 +25,7 @@ main header h1#aquaframe {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 16%;
+  padding: 17%;
   font-size: 9vw;
   text-align: center;
   width: 100%;

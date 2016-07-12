@@ -1,5 +1,6 @@
 var fs = require('fs');
 var config = require('./config');
+var colors = require('chalk');
 
 exports.css = css;
 function css (){
@@ -14,7 +15,7 @@ function css (){
 			}),
 			require('postcss-simple-vars'),
 			require('postcss-nested'),
-			require('postcss-strip-inline-comments'),
+			//require('postcss-strip-inline-comments'),
 			require('postcss-custom-media'),
 			require('postcss-color-function')
 		])
