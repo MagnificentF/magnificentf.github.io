@@ -364,11 +364,22 @@ main article form label [type=submit] {
   background-size: cover;
 }
 
+#BackToTop {
+  width: 16%;
+  padding: 10% 0;
+  margin: 372% 0 0 0;
+  left: 41%;
+  background-image: url(images/BackToTop.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
 #Oliver_A_Hummingbird {
   width: 32%;
   padding: 20.5% 0;
   margin: 0% 0 0 0;
-  left: 4%;
+  left: 3%;
   background-image: url(images/Oliver_A_Hummingbird.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -376,10 +387,10 @@ main article form label [type=submit] {
 }
 
 #Lysander_A_Albatros {
-  width: 27%;
-  padding: 15.5% 0;
+  width: 28%;
+  padding: 16% 0;
   margin: 4% 0 0 0;
-  left: 39%;
+  left: 38%;
   background-image: url(images/Lysander_A._Albatros.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -390,7 +401,7 @@ main article form label [type=submit] {
   width: 24%;
   padding: 15% 0;
   margin: 0% 0 0 0;
-  left: 70%;
+  left: 71%;
   background-image: url(images/Mercy_A._Bluebird.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -541,10 +552,10 @@ main article form label [type=submit] {
 }
 
 #Ooze {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 300% 0 0 0;
-  left: 54%;
+  width: 20%;
+  padding: 19% 0;
+  margin: 290% 0 0 0;
+  left: 10%;
   background-image: url(images/Ooze.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -552,10 +563,10 @@ main article form label [type=submit] {
 }
 
 #Lurk {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 302% 0 0 0;
-  left: 8%;
+  width: 20%;
+  padding: 19% 0;
+  margin: 290% 0 0 0;
+  left: 38%;
   background-image: url(images/Lurk.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -563,10 +574,10 @@ main article form label [type=submit] {
 }
 
 #My_Friends_Cat {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 306% 0 0 0;
-  left: 54%;
+  width: 25%;
+  padding: 20% 0;
+  margin: 287% 0 0 0;
+  left: 65%;
   background-image: url(images/My_Friends_Cat.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -574,10 +585,10 @@ main article form label [type=submit] {
 }
 
 #Life_On_Mars {
-  width: 38%;
+  width: 20%;
   padding: 22.5% 0;
-  margin: 306% 0 0 0;
-  left: 54%;
+  margin: 333% 0 0 0;
+  left: 70%;
   background-image: url(images/Life_On_Mars.jpg);
   background-repeat: no-repeat;
   background-position: top;

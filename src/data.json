@@ -212,6 +212,15 @@
       "height": 45,
       "top": 306,
       "left": 54
+    },
+      "BackToTop": {
+        "title": "",
+        "description": "BACK TO THE TOP",
+        "image": "BackToTop.png",
+        "width": 16,
+        "height": 20,
+        "top": 365,
+        "left": 41
     }
   },
   "painting": {
@@ -222,16 +231,16 @@
       "width": 32,
       "height": 41,
       "top": 0,
-      "left": 4
+      "left": 3
     },
     "Lysander_A_Albatros": {
       "title": "Lysander A. Albatros",
       "description": "Is of a devious nature, and is often found to be up to no good. Sold, prints available",
       "image": "Lysander_A._Albatros.jpg",
-      "width": 27,
-      "height": 31,
+      "width": 28,
+      "height": 32,
       "top": 4,
-      "left": 39
+      "left": 38
     },
     "Mercy_A_Bluebird": {
       "title": "Mercy A. Bluebird",
@@ -240,7 +249,7 @@
       "width": 24,
       "height": 30,
       "top": 0,
-      "left": 70
+      "left": 71
     },
     "Margory_A_Quail": {
       "title": "Margory A. Quail",
@@ -363,37 +372,46 @@
       "title": "Ooze",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Ooze.jpg",
-      "width": 37,
-      "height": 45,
-      "top": 300,
-      "left": 54
+      "width": 20,
+      "height": 38,
+      "top": 290,
+      "left": 10
     },
     "Lurk": {
       "title": "Lurk",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Lurk.jpg",
-      "width": 38,
-      "height": 45,
-      "top": 302,
-      "left": 8
+      "width": 20,
+      "height": 38,
+      "top": 290,
+      "left": 38
     },
     "My_Friends_Cat": {
       "title": "My Friends Cat",
       "description": "",
       "image": "My_Friends_Cat.jpg",
-      "width": 38,
-      "height": 45,
-      "top": 306,
-      "left": 54
+      "width": 25,
+      "height": 40,
+      "top": 287,
+      "left": 65
     },
     "Life_On_Mars": {
       "title": "Life On Mars",
       "description": "Sold",
       "image": "Life_On_Mars.jpg",
-      "width": 38,
+      "width": 20,
       "height": 45,
-      "top": 306,
-      "left": 54
+      "top": 333,
+      "left": 70
+    },
+    "BackToTop": {
+      "title": "",
+      "description": "BACK TO THE TOP",
+      "image": "BackToTop.png",
+      "width": 16,
+      "height": 20,
+      "top": 372,
+      "left": 41
     }
   },
   "sculpture": {
