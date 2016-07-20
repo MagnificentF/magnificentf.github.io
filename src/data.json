@@ -3,7 +3,7 @@
     "illustrationSpecimen": {
       "link": "#illustration",
       "title": "Illustration",
-      "description": "Pictures not made with paint",
+      "description": "",
       "image": "Claudette.jpg",
       "width": 26,
       "height": 32,
@@ -13,7 +13,7 @@
     "paintingSpecimen": {
       "link": "#painting",
       "title": "Painting",
-      "description": "Pictures made of paint",
+      "description": "",
       "image": "His_Lovely_Assistant.png",
       "width": 25,
       "height": 25,
@@ -23,7 +23,7 @@
     "sculptureSpecimen": {
       "link": "#sculpture",
       "title": "Sculpture",
-      "description": "Three dimensional things",
+      "description": "",
       "image": "Priscilla_And_Peach.jpg",
       "width": 26,
       "height": 32,
@@ -33,7 +33,7 @@
     "animationSpecimen": {
       "link": "#animation",
       "title": "Animation",
-      "description": "Pictures that move",
+      "description": "",
       "image": "Max_And_Jax.png",
       "width": 30,
       "height": 34,
