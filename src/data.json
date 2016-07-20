@@ -219,73 +219,73 @@
       "title": "Oliver A. Hummingbird",
       "description": "Is quite fond of his hat. He is quite sure it is the tallest hat any hummingbird ever had. Sold, prints available",
       "image": "Oliver_A_Hummingbird.png",
-      "width": 30,
-      "height": 38,
-      "top": 3,
-      "left": 5
+      "width": 32,
+      "height": 41,
+      "top": 0,
+      "left": 4
     },
     "Lysander_A_Albatros": {
       "title": "Lysander A. Albatros",
       "description": "Is of a devious nature, and is often found to be up to no good. Sold, prints available",
       "image": "Lysander_A._Albatros.jpg",
-      "width": 25,
-      "height": 29,
-      "top": 5,
-      "left": 37
+      "width": 27,
+      "height": 31,
+      "top": 4,
+      "left": 39
     },
     "Mercy_A_Bluebird": {
       "title": "Mercy A. Bluebird",
       "description": "Devoted her life to those stricken with avian influenza. Often sheds tears at the thought of salt spoons who've become lost through cracks in the floorboards. Sold, prints available",
       "image": "Mercy_A._Bluebird.jpg",
-      "width": 26,
-      "height": 32,
-      "top": 3,
-      "left": 69
+      "width": 24,
+      "height": 30,
+      "top": 0,
+      "left": 70
     },
     "Margory_A_Quail": {
       "title": "Margory A. Quail",
       "description": "Dashes in front of cars sending them careening off into ditches, whereupon their drivers inquire at a local truck stop, and find that she was killed in an auto accident ten years ago this very night! Sold, prints available",
       "image": "Margory_A._Quail.png",
-      "width": 30,
-      "height": 34,
+      "width": 29,
+      "height": 41,
       "top": 50,
-      "left": 5
+      "left": 4
     },
     "Winthrop_A_Owl": {
       "title": "Winthrop A. Owl",
       "description": "Enjoys long strolls in the dead of night, and peering at people suspiciously through his monocle. He also finds fancy trousers much to his liking. Sold, prints available",
       "image": "Winthrop_A._Owl.jpg",
-      "width": 40,
-      "height": 24,
-      "top": 50,
-      "left": 49
+      "width": 27,
+      "height": 34,
+      "top": 47,
+      "left": 35
     },
     "Thaddeus_A_Peacock": {
       "title": "Thaddeus A. Peacock",
       "description": "Takes great delight in his finery, yet cannot dress himself as he is deterred by his deathly fear of buttons. Sold, prints available",
       "image": "Thaddeus_A._Peacock.jpg",
-      "width": 30,
-      "height": 24,
-      "top": 82,
-      "left": 64
+      "width": 31,
+      "height": 38,
+      "top": 45,
+      "left": 65
     },
     "Iphignea_A_Magpie": {
       "title": "Iphignea A. Magpie",
       "description": "Is suspected of poisoning eight husbands, and has an affection for moths of the tasty variety. Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Iphignea_A._Magpie.jpg",
-      "width": 21,
-      "height": 21,
-      "top": 78,
-      "left": 39
+      "width": 26.5,
+      "height": 33,
+      "top": 95,
+      "left": 65
     },
     "Fingers_A_Pelican": {
       "title": "Fingers A. Pelican and Jimmy The Fish",
       "description": "Are suspected of foul play, but you won't mention it if you value your kneecaps. Sold, prints available",
       "image": "Fingers_A._Pelican.png",
-      "width": 25.5,
-      "height": 31,
-      "top": 99,
-      "left": 5
+      "width": 45,
+      "height": 35,
+      "top": 105,
+      "left": 11
     },
     "Lenore_A_Raven": {
       "title": "Lenore A. Raven",
@@ -302,7 +302,7 @@
       "image": "Chauncey_A._Rockdove.jpg",
       "width": 26,
       "height": 30,
-      "top": 114,
+      "top": 154,
       "left": 68
     },
     "Aloysius_A_Flamingo": {
