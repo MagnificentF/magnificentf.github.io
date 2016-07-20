@@ -3,7 +3,7 @@
     "illustrationSpecimen": {
       "link": "#illustration",
       "title": "Illustration",
-      "description":,
+      "description": "",
       "image": "Priscilla_And_Peach.jpg",
       "width": 26,
       "height": 32,
@@ -13,7 +13,7 @@
     "paintingSpecimen": {
       "link": "#painting",
       "title": "Painting",
-      "description":,
+      "description": "",
       "image": "Oliver_A_Hummingbird.png",
       "width": 25,
       "height": 25,
@@ -23,7 +23,7 @@
     "sculptureSpecimen": {
       "link": "#sculpture",
       "title": "Sculpture",
-      "description":,
+      "description": "",
       "image": "Iphignea.jpg",
       "width": 26,
       "height": 32,
@@ -33,7 +33,7 @@
     "animationSpecimen": {
       "link": "#animation",
       "title": "Animation",
-      "description":,
+      "description": "",
       "image": "Crocodile.jpg",
       "width": 30,
       "height": 34,
