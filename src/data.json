@@ -292,63 +292,72 @@
       "description": "Finds pathological entertainment in plucking at shiny objects. Often found attacking door knockers just after they have been polished, and disturbing their inhabitants. Sold, prints available",
       "image": "Lenore_A._Raven.jpg",
       "width": 25.5,
-      "height": 31,
-      "top": 116,
-      "left": 36
+      "height": 33,
+      "top": 150,
+      "left": 4
     },
     "Chauncey_A_Rockdove": {
       "title": "Chauncey A. Rockdove",
       "description": "Has an inclination toward bowties, and tends to favor the taste of pocket watches. Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Chauncey_A._Rockdove.jpg",
       "width": 26,
-      "height": 30,
-      "top": 154,
-      "left": 68
+      "height": 33,
+      "top": 200,
+      "left": 10
     },
     "Aloysius_A_Flamingo": {
       "title": "Aloysius A. Flamingo",
       "description": "Claims to have come from Paris. Enjoys strolling in the park and eating ice cream, and can not be found doing much else. Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Aloysius_A._Flamingo.jpg",
-      "width": 23,
-      "height": 37,
-      "top": 137,
-      "left": 5
+      "width": 28,
+      "height": 36,
+      "top": 150,
+      "left": 34
     },
     "Byron_A_Hornedowl": {
       "title": "Byron A. Hornedowl",
       "description": "Is taken to lurking about and giving ominous stares.  It is rumored that he will devour an unattended fledgling, though evidence of this is yet to be found. Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Byron_A._Hornedowl.jpg",
-      "width": 33,
-      "height": 22,
-      "top": 154,
-      "left": 33
+      "width": 30,
+      "height": 38,
+      "top": 143,
+      "left": 66
+    },
+   "Content": {
+      "title": "Je Suis Content",
+      "description": "Sold",
+      "image": "Content.jpg",
+      "width": 40,
+      "height": 33,
+      "top": 201,
+      "left": 48
     },
     "King_Of_Hearts": {
       "title": "The King Of Hearts",
       "description": "The King of Hearts. Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "King_Of_Hearts.jpg",
-      "width": 22,
-      "height": 28,
-      "top": 151,
-      "left": 71.5
+      "width": 26,
+      "height": 32,
+      "top": 247,
+      "left": 5
     },
     "Sunset": {
       "title": "I Feel Like A Sunset",
       "description": "I Feel Like A Sunset. Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Sunset.jpg",
-      "width": 37,
-      "height": 45,
-      "top": 180,
-      "left": 8
+      "width": 26,
+      "height": 32,
+      "top": 245,
+      "left": 37
     },
     "Love": {
       "title": "Love Feels Like",
       "description": "Love Feels Like.  Sold",
       "image": "Love.jpg",
-      "width": 37,
-      "height": 45,
-      "top": 184,
-      "left": 52
+      "width": 26,
+      "height": 32,
+      "top": 245,
+      "left": 69
     },
     "Ooze": {
       "title": "Ooze",
@@ -356,17 +365,8 @@
       "image": "Ooze.jpg",
       "width": 37,
       "height": 45,
-      "top": 246,
+      "top": 300,
       "left": 54
-    },
-    "Content": {
-      "title": "Je Suis Content",
-      "description": "Sold",
-      "image": "Content.jpg",
-      "width": 38,
-      "height": 47,
-      "top": 240,
-      "left": 9
     },
     "Lurk": {
       "title": "Lurk",

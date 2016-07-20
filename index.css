@@ -454,9 +454,9 @@ main article form label [type=submit] {
 
 #Lenore_A_Raven {
   width: 25.5%;
-  padding: 15.5% 0;
-  margin: 116% 0 0 0;
-  left: 36%;
+  padding: 16.5% 0;
+  margin: 150% 0 0 0;
+  left: 4%;
   background-image: url(images/Lenore_A._Raven.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -465,9 +465,9 @@ main article form label [type=submit] {
 
 #Chauncey_A_Rockdove {
   width: 26%;
-  padding: 15% 0;
-  margin: 154% 0 0 0;
-  left: 68%;
+  padding: 16.5% 0;
+  margin: 200% 0 0 0;
+  left: 10%;
   background-image: url(images/Chauncey_A._Rockdove.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -475,10 +475,10 @@ main article form label [type=submit] {
 }
 
 #Aloysius_A_Flamingo {
-  width: 23%;
-  padding: 18.5% 0;
-  margin: 137% 0 0 0;
-  left: 5%;
+  width: 28%;
+  padding: 18% 0;
+  margin: 150% 0 0 0;
+  left: 34%;
   background-image: url(images/Aloysius_A._Flamingo.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -486,21 +486,32 @@ main article form label [type=submit] {
 }
 
 #Byron_A_Hornedowl {
-  width: 33%;
-  padding: 11% 0;
-  margin: 154% 0 0 0;
-  left: 33%;
+  width: 30%;
+  padding: 19% 0;
+  margin: 143% 0 0 0;
+  left: 66%;
   background-image: url(images/Byron_A._Hornedowl.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
 
+#Content {
+  width: 40%;
+  padding: 16.5% 0;
+  margin: 201% 0 0 0;
+  left: 48%;
+  background-image: url(images/Content.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
 #King_Of_Hearts {
-  width: 22%;
-  padding: 14% 0;
-  margin: 151% 0 0 0;
-  left: 71.5%;
+  width: 26%;
+  padding: 16% 0;
+  margin: 247% 0 0 0;
+  left: 5%;
   background-image: url(images/King_Of_Hearts.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -508,10 +519,10 @@ main article form label [type=submit] {
 }
 
 #Sunset {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 180% 0 0 0;
-  left: 8%;
+  width: 26%;
+  padding: 16% 0;
+  margin: 245% 0 0 0;
+  left: 37%;
   background-image: url(images/Sunset.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -519,10 +530,10 @@ main article form label [type=submit] {
 }
 
 #Love {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 184% 0 0 0;
-  left: 52%;
+  width: 26%;
+  padding: 16% 0;
+  margin: 245% 0 0 0;
+  left: 69%;
   background-image: url(images/Love.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -532,20 +543,9 @@ main article form label [type=submit] {
 #Ooze {
   width: 37%;
   padding: 22.5% 0;
-  margin: 246% 0 0 0;
+  margin: 300% 0 0 0;
   left: 54%;
   background-image: url(images/Ooze.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Content {
-  width: 38%;
-  padding: 23.5% 0;
-  margin: 240% 0 0 0;
-  left: 9%;
-  background-image: url(images/Content.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
