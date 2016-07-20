@@ -3,8 +3,8 @@
     "illustrationSpecimen": {
       "link": "#illustration",
       "title": "Illustration",
-      "description": "Pictures not made with paint",
-      "image": "Claudette.jpg",
+      "description":,
+      "image": "Priscilla_And_Peach.jpg",
       "width": 26,
       "height": 32,
       "top": 3,
@@ -13,8 +13,8 @@
     "paintingSpecimen": {
       "link": "#painting",
       "title": "Painting",
-      "description": "Pictures made of paint",
-      "image": "His_Lovely_Assistant.png",
+      "description":,
+      "image": "Oliver_A_Hummingbird.png",
       "width": 25,
       "height": 25,
       "top": 5,
@@ -23,8 +23,8 @@
     "sculptureSpecimen": {
       "link": "#sculpture",
       "title": "Sculpture",
-      "description": "Three dimensional things",
-      "image": "Priscilla_And_Peach.jpg",
+      "description":,
+      "image": "Iphignea.jpg",
       "width": 26,
       "height": 32,
       "top": 3,
@@ -33,8 +33,8 @@
     "animationSpecimen": {
       "link": "#animation",
       "title": "Animation",
-      "description": "Pictures that move",
-      "image": "Max_And_Jax.png",
+      "description":,
+      "image": "Crocodile.jpg",
       "width": 30,
       "height": 34,
       "top": 50,
