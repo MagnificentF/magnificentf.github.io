@@ -15,10 +15,10 @@
       "title": "Painting",
       "description": "",
       "image": "Oliver_A_Hummingbird.png",
-      "width": 25,
-      "height": 25,
-      "top": 5,
-      "left": 37
+      "width": 32,
+      "height": 40,
+      "top": 0,
+      "left": 34
     },
     "sculptureSpecimen": {
       "link": "#sculpture",
@@ -35,10 +35,10 @@
       "title": "Animation",
       "description": "",
       "image": "Crocodile.jpg",
-      "width": 30,
-      "height": 34,
+      "width": 45,
+      "height": 26,
       "top": 50,
-      "left": 5
+      "left": 28
     }
   },
   "illustration": {

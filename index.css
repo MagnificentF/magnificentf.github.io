@@ -116,18 +116,18 @@ main article form label [type=submit] {
   padding: 16% 0;
   margin: 3% 0 0 0;
   left: 5%;
-  background-image: url(images/Claudette.jpg);
+  background-image: url(images/Priscilla_And_Peach.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
 
 #paintingSpecimen {
-  width: 25%;
-  padding: 12.5% 0;
-  margin: 5% 0 0 0;
-  left: 37%;
-  background-image: url(images/His_Lovely_Assistant.png);
+  width: 32%;
+  padding: 20% 0;
+  margin: 0% 0 0 0;
+  left: 34%;
+  background-image: url(images/Oliver_A_Hummingbird.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -138,18 +138,18 @@ main article form label [type=submit] {
   padding: 16% 0;
   margin: 3% 0 0 0;
   left: 69%;
-  background-image: url(images/Priscilla_And_Peach.jpg);
+  background-image: url(images/Iphignea.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
 
 #animationSpecimen {
-  width: 30%;
-  padding: 17% 0;
+  width: 45%;
+  padding: 13% 0;
   margin: 50% 0 0 0;
-  left: 5%;
-  background-image: url(images/Max_And_Jax.png);
+  left: 28%;
+  background-image: url(images/Crocodile.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
