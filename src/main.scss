@@ -76,6 +76,7 @@ main {
 
     h2 {
       @mixin lifesavers;
+      display: none;
     }
     figure.exhibit {
       position: absolute;
