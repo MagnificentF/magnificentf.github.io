@@ -4,7 +4,7 @@
       "link": "#illustration",
       "title": "Illustration",
       "description": "",
-      "image": "Claudette.jpg",
+      "image": "Priscilla_And_Peach.jpg",
       "width": 26,
       "height": 32,
       "top": 3,
@@ -14,17 +14,17 @@
       "link": "#painting",
       "title": "Painting",
       "description": "",
-      "image": "His_Lovely_Assistant.png",
-      "width": 25,
-      "height": 25,
-      "top": 5,
-      "left": 37
+      "image": "Oliver_A_Hummingbird.png",
+      "width": 32,
+      "height": 40,
+      "top": 0,
+      "left": 34
     },
     "sculptureSpecimen": {
       "link": "#sculpture",
       "title": "Sculpture",
       "description": "",
-      "image": "Priscilla_And_Peach.jpg",
+      "image": "Iphignea.jpg",
       "width": 26,
       "height": 32,
       "top": 3,
@@ -34,11 +34,11 @@
       "link": "#animation",
       "title": "Animation",
       "description": "",
-      "image": "Max_And_Jax.png",
-      "width": 30,
-      "height": 34,
+      "image": "Crocodile.jpg",
+      "width": 45,
+      "height": 26,
       "top": 50,
-      "left": 5
+      "left": 28
     }
   },
   "illustration": {
@@ -211,6 +211,442 @@
       "width": 38,
       "height": 45,
       "top": 306,
+      "left": 54
+    },
+      "BackToTop": {
+        "title": "",
+        "description": "BACK TO THE TOP",
+        "image": "BackToTop.png",
+        "width": 16,
+        "height": 20,
+        "top": 365,
+        "left": 41
+    }
+  },
+  "painting": {
+    "Oliver_A_Hummingbird": {
+      "title": "Oliver A. Hummingbird",
+      "description": "Is quite fond of his hat. He is quite sure it is the tallest hat any hummingbird ever had. Sold, prints available",
+      "image": "Oliver_A_Hummingbird.png",
+      "width": 32,
+      "height": 41,
+      "top": 0,
+      "left": 3
+    },
+    "Lysander_A_Albatros": {
+      "title": "Lysander A. Albatros",
+      "description": "Is of a devious nature, and is often found to be up to no good. Sold, prints available",
+      "image": "Lysander_A._Albatros.jpg",
+      "width": 28,
+      "height": 32,
+      "top": 4,
+      "left": 38
+    },
+    "Mercy_A_Bluebird": {
+      "title": "Mercy A. Bluebird",
+      "description": "Devoted her life to those stricken with avian influenza. Often sheds tears at the thought of salt spoons who've become lost through cracks in the floorboards. Sold, prints available",
+      "image": "Mercy_A._Bluebird.jpg",
+      "width": 24,
+      "height": 30,
+      "top": 0,
+      "left": 71
+    },
+    "Margory_A_Quail": {
+      "title": "Margory A. Quail",
+      "description": "Dashes in front of cars sending them careening off into ditches, whereupon their drivers inquire at a local truck stop, and find that she was killed in an auto accident ten years ago this very night! Sold, prints available",
+      "image": "Margory_A._Quail.png",
+      "width": 29,
+      "height": 41,
+      "top": 50,
+      "left": 4
+    },
+    "Winthrop_A_Owl": {
+      "title": "Winthrop A. Owl",
+      "description": "Enjoys long strolls in the dead of night, and peering at people suspiciously through his monocle. He also finds fancy trousers much to his liking. Sold, prints available",
+      "image": "Winthrop_A._Owl.jpg",
+      "width": 27,
+      "height": 34,
+      "top": 47,
+      "left": 35
+    },
+    "Thaddeus_A_Peacock": {
+      "title": "Thaddeus A. Peacock",
+      "description": "Takes great delight in his finery, yet cannot dress himself as he is deterred by his deathly fear of buttons. Sold, prints available",
+      "image": "Thaddeus_A._Peacock.jpg",
+      "width": 31,
+      "height": 38,
+      "top": 45,
+      "left": 65
+    },
+    "Iphignea_A_Magpie": {
+      "title": "Iphignea A. Magpie",
+      "description": "Is suspected of poisoning eight husbands, and has an affection for moths of the tasty variety. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Iphignea_A._Magpie.jpg",
+      "width": 26.5,
+      "height": 33,
+      "top": 95,
+      "left": 65
+    },
+    "Fingers_A_Pelican": {
+      "title": "Fingers A. Pelican and Jimmy The Fish",
+      "description": "Are suspected of foul play, but you won't mention it if you value your kneecaps. Sold, prints available",
+      "image": "Fingers_A._Pelican.png",
+      "width": 45,
+      "height": 35,
+      "top": 105,
+      "left": 11
+    },
+    "Lenore_A_Raven": {
+      "title": "Lenore A. Raven",
+      "description": "Finds pathological entertainment in plucking at shiny objects. Often found attacking door knockers just after they have been polished, and disturbing their inhabitants. Sold, prints available",
+      "image": "Lenore_A._Raven.jpg",
+      "width": 25.5,
+      "height": 33,
+      "top": 150,
+      "left": 4
+    },
+    "Chauncey_A_Rockdove": {
+      "title": "Chauncey A. Rockdove",
+      "description": "Has an inclination toward bowties, and tends to favor the taste of pocket watches. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Chauncey_A._Rockdove.jpg",
+      "width": 26,
+      "height": 33,
+      "top": 200,
+      "left": 10
+    },
+    "Aloysius_A_Flamingo": {
+      "title": "Aloysius A. Flamingo",
+      "description": "Claims to have come from Paris. Enjoys strolling in the park and eating ice cream, and can not be found doing much else. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Aloysius_A._Flamingo.jpg",
+      "width": 28,
+      "height": 36,
+      "top": 150,
+      "left": 34
+    },
+    "Byron_A_Hornedowl": {
+      "title": "Byron A. Hornedowl",
+      "description": "Is taken to lurking about and giving ominous stares.  It is rumored that he will devour an unattended fledgling, though evidence of this is yet to be found. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Byron_A._Hornedowl.jpg",
+      "width": 30,
+      "height": 38,
+      "top": 143,
+      "left": 66
+    },
+   "Content": {
+      "title": "Je Suis Content",
+      "description": "Sold",
+      "image": "Content.jpg",
+      "width": 40,
+      "height": 33,
+      "top": 201,
+      "left": 48
+    },
+    "King_Of_Hearts": {
+      "title": "The King Of Hearts",
+      "description": "The King of Hearts. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "King_Of_Hearts.jpg",
+      "width": 26,
+      "height": 32,
+      "top": 247,
+      "left": 5
+    },
+    "Sunset": {
+      "title": "I Feel Like A Sunset",
+      "description": "I Feel Like A Sunset. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Sunset.jpg",
+      "width": 26,
+      "height": 32,
+      "top": 245,
+      "left": 37
+    },
+    "Love": {
+      "title": "Love Feels Like",
+      "description": "Love Feels Like.  Sold",
+      "image": "Love.jpg",
+      "width": 26,
+      "height": 32,
+      "top": 245,
+      "left": 69
+    },
+    "Ooze": {
+      "title": "Ooze",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Ooze.jpg",
+      "width": 20,
+      "height": 38,
+      "top": 290,
+      "left": 10
+    },
+    "Lurk": {
+      "title": "Lurk",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Lurk.jpg",
+      "width": 20,
+      "height": 38,
+      "top": 290,
+      "left": 38
+    },
+    "My_Friends_Cat": {
+      "title": "My Friends Cat",
+      "description": "",
+      "image": "My_Friends_Cat.jpg",
+      "width": 25,
+      "height": 40,
+      "top": 287,
+      "left": 65
+    },
+    "Life_On_Mars": {
+      "title": "Life On Mars",
+      "description": "Sold",
+      "image": "Life_On_Mars.jpg",
+      "width": 20,
+      "height": 45,
+      "top": 333,
+      "left": 70
+    },
+    "BackToTop": {
+      "title": "",
+      "description": "BACK TO THE TOP",
+      "image": "BackToTop.png",
+      "width": 16,
+      "height": 20,
+      "top": 372,
+      "left": 41
+    }
+  },
+  "sculpture": {
+    "Mirth": {
+      "title": "Mirth",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Mirth.jpg",
+      "width": 30,
+      "height": 38,
+      "top": 3,
+      "left": 5
+    },
+    "Grief": {
+      "title": "Grief",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Grief.jpg",
+      "width": 25,
+      "height": 29,
+      "top": 5,
+      "left": 37
+    },
+    "Wonder": {
+      "title": "Wonder",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Wonder.jpg",
+      "width": 26,
+      "height": 32,
+      "top": 3,
+      "left": 69
+    },
+    "Iphignea": {
+      "title": "Iphignea",
+      "description": "Be wary dear ones, when you go to tea at Iphignea's, rumor has it she keeps arsenic in the sugar bowl... Available",
+      "image": "Iphignea.jpg",
+      "width": 30,
+      "height": 34,
+      "top": 50,
+      "left": 5
+    },
+    "Princess_And_Pea": {
+      "title": "The Princess And The Pea",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Princess_And_Pea.png",
+      "width": 40,
+      "height": 24,
+      "top": 50,
+      "left": 49
+    },
+    "Punk": {
+      "title": "Patchwork Knock-Down Circus Owl",
+      "description": "Step right up! Step right up! Let's see that right arm son! Throw a ball and win the lady a prize! Sold",
+      "image": "Punk.jpg",
+      "width": 30,
+      "height": 24,
+      "top": 82,
+      "left": 64
+    },
+    "The_Rubbish_Service": {
+      "title": "The Rubbish Service",
+      "description": "I woke up with a start at the clatter and crashing coming from outside my window. There in the street, in place of our usual garbage truck, was a giant rusty mechanical whale gobbling up the dumpsters. I was relieved that the sounds it emanated were half the volume of the usual truck and driver.. ",
+      "image": "The_Rubbish_Service.jpg",
+      "width": 21,
+      "height": 21,
+      "top": 78,
+      "left": 39
+    },
+    "The_Knife_Thrower": {
+      "title": "The Knife Thrower & His Assistant",
+      "description": "Munny! Sold",
+      "image": "The_Knife_Thrower.jpg",
+      "width": 25.5,
+      "height": 31,
+      "top": 99,
+      "left": 5
+    },
+    "Cicada_Sugar": {
+      "title": "Cicada Sugarbowl",
+      "description": "Private Collection",
+      "image": "Cicada_Sugar.jpg",
+      "width": 25.5,
+      "height": 31,
+      "top": 116,
+      "left": 36
+    },
+    "Cicada_Teapot": {
+      "title": "Cicada Teapot",
+      "description": "Private Collection",
+      "image": "Cicada_Teapot.jpg",
+      "width": 26,
+      "height": 30,
+      "top": 114,
+      "left": 68
+    },
+    "Cicada_Creamer": {
+      "title": "Cicada Creamer",
+      "description": "Private Collection",
+      "image": "Cicada_Creamer.jpg",
+      "width": 23,
+      "height": 37,
+      "top": 137,
+      "left": 5
+    },
+    "Butterfly_Creamer_1": {
+      "title": "Butterfly Creamer",
+      "description": "Sold",
+      "image": "Butterfly_Creamer_1.jpg",
+      "width": 33,
+      "height": 22,
+      "top": 154,
+      "left": 33
+    },
+    "Lobster_Pot": {
+      "title": "Lobster (Tea)Pot",
+      "description": "Sold",
+      "image": "Lobster_Pot.jpg",
+      "width": 22,
+      "height": 28,
+      "top": 151,
+      "left": 71.5
+    },
+    "Butterfly_Creamer_2": {
+      "title": "Butterfly Creamer",
+      "description": "Sold",
+      "image": "Butterfly_Creamer_2.jpg",
+      "width": 37,
+      "height": 45,
+      "top": 180,
+      "left": 8
+    },
+    "Butter": {
+      "title": "Most Evil Of Butters",
+      "description": "Available",
+      "image": "Butter.jpg",
+      "width": 37,
+      "height": 45,
+      "top": 184,
+      "left": 52
+    },
+    "Blue_Bird": {
+      "title": "Birds Of A Feather ~ 1",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Blue_Bird.jpg",
+      "width": 37,
+      "height": 45,
+      "top": 246,
+      "left": 54
+    },
+    "Green_Bird": {
+      "title": "Birds Of A Feather ~ 2",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Green_Bird.jpg",
+      "width": 38,
+      "height": 47,
+      "top": 240,
+      "left": 9
+    },
+    "Purple_Bird": {
+      "title": "Birds Of A Feather ~ 3",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Purple_Bird.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 302,
+      "left": 8
+    },
+    "Pink_Bird": {
+      "title": "Birds Of A Feather ~ 4",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Pink_Bird.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 306,
+      "left": 54
+    },
+    "Yellow_Bird": {
+      "title": "Birds Of A Feather ~ 5",
+      "description": "Sold",
+      "image": "Yellow_Bird.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 306,
+      "left": 54
+    },
+    "Augustus": {
+      "title": "Augustus",
+      "description": "Sold",
+      "image": "Augustus.jpg",
+      "width": 37,
+      "height": 45,
+      "top": 350,
+      "left": 52
+    },
+    "Imp": {
+      "title": "Imp",
+      "description": "I keep forgetting to finish my tea, but when I go to clean the cup, it's empty...",
+      "image": "Imp.jpg",
+      "width": 37,
+      "height": 45,
+      "top": 410,
+      "left": 54
+    },
+    "Nightmare": {
+      "title": "A Nighttime Friend",
+      "description": "",
+      "image": "Nightmare.jpg",
+      "width": 38,
+      "height": 47,
+      "top": 420,
+      "left": 9
+    },
+    "Aloicious_And_Abe": {
+      "title": "Aloicious and Abe",
+      "description": "Private Collection",
+      "image": "Aloicious_And_Abe.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 500,
+      "left": 8
+    },
+    "Inseperable": {
+      "title": "Inseperable",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
+      "image": "Inseperable.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 500,
+      "left": 54
+    },
+    "Brothers": {
+      "title": "Brothers",
+      "description": "",
+      "image": "Brothers.jpg",
+      "width": 38,
+      "height": 45,
+      "top": 530,
       "left": 54
     }
   }

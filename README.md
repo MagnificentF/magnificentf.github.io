@@ -11,7 +11,7 @@
 * At the prompt type `npm install && npm start`
 * Go to http://localhost:3000 in your browser
 
-Whenever changes are made to files in the `/src` directory the `index.*` files in the root will be rebuilt. You can refresh your browser manually or use [an extension](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en) to automatically refresh whenever changes are made. 
+Whenever changes are made to files in the `/src` directory the `index.*` files in the root will be rebuilt. You can refresh your browser manually or use [an extension](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en) to automatically refresh.
 
 ## Todo
 - [ ] Finish entering artwork into data.json

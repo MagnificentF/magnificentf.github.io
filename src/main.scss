@@ -2,7 +2,7 @@
 $aqua: rgb(145, 214, 211);
 
 @define-mixin lifesavers {
-  font-family: 'Life Savers', serif;
+  font-family: 'Life Savers', Georgia, serif;
   letter-spacing: .1em;
 }
 
@@ -20,35 +20,37 @@ body {
   background-repeat: repeat;
   background-position: center;
   color: $aqua;
-  font-family: 'Corben', cursive;
+  font-family: 'Corben', Georgia, cursive;
 }
 main {
   header {
-    @media (--desktop) {
+    /*@media (--desktop) {
       width: 900px;
       margin: auto;
-    }
+    }*/
     h1#aquaframe {
       text-align: center;
       background-image: url('/images/aquaframe.png');
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
-      padding: 16%;
-      font-size: 9vw;
       text-align: center;
-      width: 100%;
       font-weight: bold;
       font-family: 'Mountains of Christmas', cursive;
-      @media (--desktop) {
+      padding: 8.7% 0;
+      margin: 1% auto;
+      font-size: 4vw;
+      width: 50%;
+      /*@media (--desktop) {
         font-size: 3.5em;
-      }
+      }*/
     }
   }
 
   nav {
     margin: auto;
     text-align: center;
+    font-size: 3vw;
     a {
       color: $aqua;
       text-decoration: none;
@@ -76,6 +78,7 @@ main {
 
     h2 {
       @mixin lifesavers;
+      display: none;
     }
     figure.exhibit {
       position: absolute;
