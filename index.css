@@ -596,9 +596,9 @@ main article form label [type=submit] {
 }
 
 #Mirth {
-  width: 30%;
-  padding: 19% 0;
-  margin: 3% 0 0 0;
+  width: 26%;
+  padding: 17% 0;
+  margin: 0% 0 0 0;
   left: 5%;
   background-image: url(images/Mirth.jpg);
   background-repeat: no-repeat;
@@ -607,9 +607,9 @@ main article form label [type=submit] {
 }
 
 #Grief {
-  width: 25%;
-  padding: 14.5% 0;
-  margin: 5% 0 0 0;
+  width: 26%;
+  padding: 17% 0;
+  margin: 0% 0 0 0;
   left: 37%;
   background-image: url(images/Grief.jpg);
   background-repeat: no-repeat;
@@ -619,8 +619,8 @@ main article form label [type=submit] {
 
 #Wonder {
   width: 26%;
-  padding: 16% 0;
-  margin: 3% 0 0 0;
+  padding: 17% 0;
+  margin: 0% 0 0 0;
   left: 69%;
   background-image: url(images/Wonder.jpg);
   background-repeat: no-repeat;
@@ -630,8 +630,8 @@ main article form label [type=submit] {
 
 #Iphignea {
   width: 30%;
-  padding: 17% 0;
-  margin: 50% 0 0 0;
+  padding: 18.5% 0;
+  margin: 45% 0 0 0;
   left: 5%;
   background-image: url(images/Iphignea.jpg);
   background-repeat: no-repeat;
@@ -640,10 +640,10 @@ main article form label [type=submit] {
 }
 
 #Princess_And_Pea {
-  width: 40%;
-  padding: 12% 0;
-  margin: 50% 0 0 0;
-  left: 49%;
+  width: 35%;
+  padding: 35% 0;
+  margin: 94% 0 0 0;
+  left: 5%;
   background-image: url(images/Princess_And_Pea.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -653,7 +653,7 @@ main article form label [type=submit] {
 #Punk {
   width: 30%;
   padding: 12% 0;
-  margin: 82% 0 0 0;
+  margin: 120% 0 0 0;
   left: 64%;
   background-image: url(images/Punk.jpg);
   background-repeat: no-repeat;
@@ -662,10 +662,10 @@ main article form label [type=submit] {
 }
 
 #The_Rubbish_Service {
-  width: 21%;
-  padding: 10.5% 0;
-  margin: 78% 0 0 0;
-  left: 39%;
+  width: 50%;
+  padding: 15.5% 0;
+  margin: 46% 0 0 0;
+  left: 43%;
   background-image: url(images/The_Rubbish_Service.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -673,10 +673,10 @@ main article form label [type=submit] {
 }
 
 #The_Knife_Thrower {
-  width: 25.5%;
+  width: 45%;
   padding: 15.5% 0;
-  margin: 99% 0 0 0;
-  left: 5%;
+  margin: 90% 0 0 0;
+  left: 49%;
   background-image: url(images/The_Knife_Thrower.jpg);
   background-repeat: no-repeat;
   background-position: top;

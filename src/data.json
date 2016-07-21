@@ -419,18 +419,18 @@
       "title": "Mirth",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Mirth.jpg",
-      "width": 30,
-      "height": 38,
-      "top": 3,
+      "width": 26,
+      "height": 34,
+      "top": 0,
       "left": 5
     },
     "Grief": {
       "title": "Grief",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Grief.jpg",
-      "width": 25,
-      "height": 29,
-      "top": 5,
+      "width": 26,
+      "height": 34,
+      "top": 0,
       "left": 37
     },
     "Wonder": {
@@ -438,8 +438,8 @@
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Wonder.jpg",
       "width": 26,
-      "height": 32,
-      "top": 3,
+      "height": 34,
+      "top": 0,
       "left": 69
     },
     "Iphignea": {
@@ -447,18 +447,18 @@
       "description": "Be wary dear ones, when you go to tea at Iphignea's, rumor has it she keeps arsenic in the sugar bowl... Available",
       "image": "Iphignea.jpg",
       "width": 30,
-      "height": 34,
-      "top": 50,
+      "height": 37,
+      "top": 45,
       "left": 5
     },
     "Princess_And_Pea": {
       "title": "The Princess And The Pea",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Princess_And_Pea.png",
-      "width": 40,
-      "height": 24,
-      "top": 50,
-      "left": 49
+      "width": 35,
+      "height": 70,
+      "top": 94,
+      "left": 5
     },
     "Punk": {
       "title": "Patchwork Knock-Down Circus Owl",
@@ -466,26 +466,26 @@
       "image": "Punk.jpg",
       "width": 30,
       "height": 24,
-      "top": 82,
+      "top": 120,
       "left": 64
     },
     "The_Rubbish_Service": {
       "title": "The Rubbish Service",
       "description": "I woke up with a start at the clatter and crashing coming from outside my window. There in the street, in place of our usual garbage truck, was a giant rusty mechanical whale gobbling up the dumpsters. I was relieved that the sounds it emanated were half the volume of the usual truck and driver.. ",
       "image": "The_Rubbish_Service.jpg",
-      "width": 21,
-      "height": 21,
-      "top": 78,
-      "left": 39
+      "width": 50,
+      "height": 31,
+      "top": 46,
+      "left": 43
     },
     "The_Knife_Thrower": {
       "title": "The Knife Thrower & His Assistant",
       "description": "Munny! Sold",
       "image": "The_Knife_Thrower.jpg",
-      "width": 25.5,
+      "width": 45,
       "height": 31,
-      "top": 99,
-      "left": 5
+      "top": 90,
+      "left": 49
     },
     "Cicada_Sugar": {
       "title": "Cicada Sugarbowl",
