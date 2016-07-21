@@ -22,13 +22,19 @@ body {
   color: $aqua;
   font-family: 'Corben', Georgia, cursive;
 }
-:link, :active, :visited {
+a {
+  text-decoration: inherit;
+  font-style: inherit;
   color: inherit;
-  text-decoration: none;
-}
-a:hover {
-  color: white;
-  text-decoration: underline;
+  &:link, &:visited {
+    color: inherit;
+  }
+  &:hover {
+    color: white;
+  }
+  &:active {
+    color: teal;
+  }
 }
 main {
   header {
