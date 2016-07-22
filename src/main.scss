@@ -22,6 +22,20 @@ body {
   color: $aqua;
   font-family: 'Corben', Georgia, cursive;
 }
+a {
+  text-decoration: inherit;
+  font-style: inherit;
+  color: inherit;
+  &:link, &:visited {
+    color: inherit;
+  }
+  &:hover {
+    color: white;
+  }
+  &:active {
+    color: teal;
+  }
+}
 main {
   header {
     /*@media (--desktop) {
@@ -36,7 +50,7 @@ main {
       background-position: center;
       text-align: center;
       font-weight: bold;
-      font-family: 'Mountains of Christmas', cursive;
+      font-family: 'Mountains of Christmas';
       padding: 8.7% 0;
       margin: 1% auto;
       font-size: 4vw;
@@ -52,14 +66,9 @@ main {
     text-align: center;
     font-size: 3vw;
     a {
-      color: $aqua;
-      text-decoration: none;
       display: inline-block;
       padding: 1em;
       @mixin lifesavers;
-      &:hover {
-        text-decoration: underline;
-      }
     }
   }
 
