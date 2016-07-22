@@ -604,9 +604,9 @@ main article form label [type=submit] {
 }
 
 #Mirth {
-  width: 30%;
-  padding: 19% 0;
-  margin: 3% 0 0 0;
+  width: 26%;
+  padding: 17% 0;
+  margin: 0% 0 0 0;
   left: 5%;
   background-image: url(images/Mirth.jpg);
   background-repeat: no-repeat;
@@ -615,9 +615,9 @@ main article form label [type=submit] {
 }
 
 #Grief {
-  width: 25%;
-  padding: 14.5% 0;
-  margin: 5% 0 0 0;
+  width: 26%;
+  padding: 17% 0;
+  margin: 0% 0 0 0;
   left: 37%;
   background-image: url(images/Grief.jpg);
   background-repeat: no-repeat;
@@ -627,8 +627,8 @@ main article form label [type=submit] {
 
 #Wonder {
   width: 26%;
-  padding: 16% 0;
-  margin: 3% 0 0 0;
+  padding: 17% 0;
+  margin: 0% 0 0 0;
   left: 69%;
   background-image: url(images/Wonder.jpg);
   background-repeat: no-repeat;
@@ -638,8 +638,8 @@ main article form label [type=submit] {
 
 #Iphignea {
   width: 30%;
-  padding: 17% 0;
-  margin: 50% 0 0 0;
+  padding: 18.5% 0;
+  margin: 45% 0 0 0;
   left: 5%;
   background-image: url(images/Iphignea.jpg);
   background-repeat: no-repeat;
@@ -648,10 +648,10 @@ main article form label [type=submit] {
 }
 
 #Princess_And_Pea {
-  width: 40%;
-  padding: 12% 0;
-  margin: 50% 0 0 0;
-  left: 49%;
+  width: 32%;
+  padding: 32.5% 0;
+  margin: 94% 0 0 0;
+  left: 5%;
   background-image: url(images/Princess_And_Pea.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -659,10 +659,10 @@ main article form label [type=submit] {
 }
 
 #Punk {
-  width: 30%;
-  padding: 12% 0;
-  margin: 82% 0 0 0;
-  left: 64%;
+  width: 25%;
+  padding: 15.5% 0;
+  margin: 130% 0 0 0;
+  left: 40%;
   background-image: url(images/Punk.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -670,10 +670,10 @@ main article form label [type=submit] {
 }
 
 #The_Rubbish_Service {
-  width: 21%;
-  padding: 10.5% 0;
-  margin: 78% 0 0 0;
-  left: 39%;
+  width: 50%;
+  padding: 15.5% 0;
+  margin: 46% 0 0 0;
+  left: 43%;
   background-image: url(images/The_Rubbish_Service.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -681,10 +681,10 @@ main article form label [type=submit] {
 }
 
 #The_Knife_Thrower {
-  width: 25.5%;
-  padding: 15.5% 0;
-  margin: 99% 0 0 0;
-  left: 5%;
+  width: 45%;
+  padding: 15.75% 0;
+  margin: 90% 0 0 0;
+  left: 49%;
   background-image: url(images/The_Knife_Thrower.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -694,8 +694,8 @@ main article form label [type=submit] {
 #Cicada_Sugar {
   width: 25.5%;
   padding: 15.5% 0;
-  margin: 116% 0 0 0;
-  left: 36%;
+  margin: 173% 0 0 0;
+  left: 68%;
   background-image: url(images/Cicada_Sugar.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -704,9 +704,9 @@ main article form label [type=submit] {
 
 #Cicada_Teapot {
   width: 26%;
-  padding: 15% 0;
-  margin: 114% 0 0 0;
-  left: 68%;
+  padding: 15.5% 0;
+  margin: 173% 0 0 0;
+  left: 36%;
   background-image: url(images/Cicada_Teapot.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -714,9 +714,9 @@ main article form label [type=submit] {
 }
 
 #Cicada_Creamer {
-  width: 23%;
-  padding: 18.5% 0;
-  margin: 137% 0 0 0;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 173% 0 0 0;
   left: 5%;
   background-image: url(images/Cicada_Creamer.jpg);
   background-repeat: no-repeat;
@@ -725,10 +725,10 @@ main article form label [type=submit] {
 }
 
 #Butterfly_Creamer_1 {
-  width: 33%;
-  padding: 11% 0;
-  margin: 154% 0 0 0;
-  left: 33%;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 212% 0 0 0;
+  left: 5%;
   background-image: url(images/Butterfly_Creamer_1.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -736,10 +736,10 @@ main article form label [type=submit] {
 }
 
 #Lobster_Pot {
-  width: 22%;
-  padding: 14% 0;
-  margin: 151% 0 0 0;
-  left: 71.5%;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 212% 0 0 0;
+  left: 36.5%;
   background-image: url(images/Lobster_Pot.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -747,10 +747,10 @@ main article form label [type=submit] {
 }
 
 #Butterfly_Creamer_2 {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 180% 0 0 0;
-  left: 8%;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 212% 0 0 0;
+  left: 68%;
   background-image: url(images/Butterfly_Creamer_2.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -758,10 +758,10 @@ main article form label [type=submit] {
 }
 
 #Butter {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 184% 0 0 0;
-  left: 52%;
+  width: 30%;
+  padding: 15% 0;
+  margin: 250% 0 0 0;
+  left: 5%;
   background-image: url(images/Butter.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -769,10 +769,10 @@ main article form label [type=submit] {
 }
 
 #Blue_Bird {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 246% 0 0 0;
-  left: 54%;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 292% 0 0 0;
+  left: 6%;
   background-image: url(images/Blue_Bird.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -780,10 +780,10 @@ main article form label [type=submit] {
 }
 
 #Green_Bird {
-  width: 38%;
-  padding: 23.5% 0;
-  margin: 240% 0 0 0;
-  left: 9%;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 250% 0 0 0;
+  left: 70%;
   background-image: url(images/Green_Bird.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -791,10 +791,10 @@ main article form label [type=submit] {
 }
 
 #Purple_Bird {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 302% 0 0 0;
-  left: 8%;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 250% 0 0 0;
+  left: 40%;
   background-image: url(images/Purple_Bird.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -802,10 +802,10 @@ main article form label [type=submit] {
 }
 
 #Pink_Bird {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 306% 0 0 0;
-  left: 54%;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 292% 0 0 0;
+  left: 37%;
   background-image: url(images/Pink_Bird.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -813,10 +813,10 @@ main article form label [type=submit] {
 }
 
 #Yellow_Bird {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 306% 0 0 0;
-  left: 54%;
+  width: 25.5%;
+  padding: 15.5% 0;
+  margin: 292% 0 0 0;
+  left: 68%;
   background-image: url(images/Yellow_Bird.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -835,10 +835,10 @@ main article form label [type=submit] {
 }
 
 #Imp {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 410% 0 0 0;
-  left: 54%;
+  width: 25%;
+  padding: 15.5% 0;
+  margin: 130% 0 0 0;
+  left: 70%;
   background-image: url(images/Imp.jpg);
   background-repeat: no-repeat;
   background-position: top;

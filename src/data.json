@@ -419,18 +419,18 @@
       "title": "Mirth",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Mirth.jpg",
-      "width": 30,
-      "height": 38,
-      "top": 3,
+      "width": 26,
+      "height": 34,
+      "top": 0,
       "left": 5
     },
     "Grief": {
       "title": "Grief",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Grief.jpg",
-      "width": 25,
-      "height": 29,
-      "top": 5,
+      "width": 26,
+      "height": 34,
+      "top": 0,
       "left": 37
     },
     "Wonder": {
@@ -438,8 +438,8 @@
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Wonder.jpg",
       "width": 26,
-      "height": 32,
-      "top": 3,
+      "height": 34,
+      "top": 0,
       "left": 69
     },
     "Iphignea": {
@@ -447,45 +447,45 @@
       "description": "Be wary dear ones, when you go to tea at Iphignea's, rumor has it she keeps arsenic in the sugar bowl... Available",
       "image": "Iphignea.jpg",
       "width": 30,
-      "height": 34,
-      "top": 50,
+      "height": 37,
+      "top": 45,
       "left": 5
     },
     "Princess_And_Pea": {
       "title": "The Princess And The Pea",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Princess_And_Pea.png",
-      "width": 40,
-      "height": 24,
-      "top": 50,
-      "left": 49
+      "width": 32,
+      "height": 65,
+      "top": 94,
+      "left": 5
     },
     "Punk": {
       "title": "Patchwork Knock-Down Circus Owl",
       "description": "Step right up! Step right up! Let's see that right arm son! Throw a ball and win the lady a prize! Sold",
       "image": "Punk.jpg",
-      "width": 30,
-      "height": 24,
-      "top": 82,
-      "left": 64
+      "width": 25,
+      "height": 31,
+      "top": 130,
+      "left": 40
     },
     "The_Rubbish_Service": {
       "title": "The Rubbish Service",
       "description": "I woke up with a start at the clatter and crashing coming from outside my window. There in the street, in place of our usual garbage truck, was a giant rusty mechanical whale gobbling up the dumpsters. I was relieved that the sounds it emanated were half the volume of the usual truck and driver.. ",
       "image": "The_Rubbish_Service.jpg",
-      "width": 21,
-      "height": 21,
-      "top": 78,
-      "left": 39
+      "width": 50,
+      "height": 31,
+      "top": 46,
+      "left": 43
     },
     "The_Knife_Thrower": {
       "title": "The Knife Thrower & His Assistant",
       "description": "Munny! Sold",
       "image": "The_Knife_Thrower.jpg",
-      "width": 25.5,
-      "height": 31,
-      "top": 99,
-      "left": 5
+      "width": 45,
+      "height": 31.5,
+      "top": 90,
+      "left": 49
     },
     "Cicada_Sugar": {
       "title": "Cicada Sugarbowl",
@@ -493,107 +493,107 @@
       "image": "Cicada_Sugar.jpg",
       "width": 25.5,
       "height": 31,
-      "top": 116,
-      "left": 36
+      "top": 173,
+      "left": 68
     },
     "Cicada_Teapot": {
       "title": "Cicada Teapot",
       "description": "Private Collection",
       "image": "Cicada_Teapot.jpg",
       "width": 26,
-      "height": 30,
-      "top": 114,
-      "left": 68
+      "height": 31,
+      "top": 173,
+      "left": 36
     },
     "Cicada_Creamer": {
       "title": "Cicada Creamer",
       "description": "Private Collection",
       "image": "Cicada_Creamer.jpg",
-      "width": 23,
-      "height": 37,
-      "top": 137,
+      "width": 25.5,
+      "height": 31,
+      "top": 173,
       "left": 5
     },
     "Butterfly_Creamer_1": {
       "title": "Butterfly Creamer",
       "description": "Sold",
       "image": "Butterfly_Creamer_1.jpg",
-      "width": 33,
-      "height": 22,
-      "top": 154,
-      "left": 33
+      "width": 25.5,
+      "height": 31,
+      "top": 212,
+      "left": 5
     },
     "Lobster_Pot": {
       "title": "Lobster (Tea)Pot",
       "description": "Sold",
       "image": "Lobster_Pot.jpg",
-      "width": 22,
-      "height": 28,
-      "top": 151,
-      "left": 71.5
+      "width": 25.5,
+      "height": 31,
+      "top": 212,
+      "left": 36.5
     },
     "Butterfly_Creamer_2": {
       "title": "Butterfly Creamer",
       "description": "Sold",
       "image": "Butterfly_Creamer_2.jpg",
-      "width": 37,
-      "height": 45,
-      "top": 180,
-      "left": 8
+      "width": 25.5,
+      "height": 31,
+      "top": 212,
+      "left": 68
     },
     "Butter": {
       "title": "Most Evil Of Butters",
       "description": "Available",
       "image": "Butter.jpg",
-      "width": 37,
-      "height": 45,
-      "top": 184,
-      "left": 52
+      "width": 30,
+      "height": 30,
+      "top": 250,
+      "left": 5
     },
     "Blue_Bird": {
       "title": "Birds Of A Feather ~ 1",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Blue_Bird.jpg",
-      "width": 37,
-      "height": 45,
-      "top": 246,
-      "left": 54
+      "width": 25.5,
+      "height": 31,
+      "top": 292,
+      "left": 6
     },
     "Green_Bird": {
       "title": "Birds Of A Feather ~ 2",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Green_Bird.jpg",
-      "width": 38,
-      "height": 47,
-      "top": 240,
-      "left": 9
+      "width": 25.5,
+      "height": 31,
+      "top": 250,
+      "left": 70
     },
     "Purple_Bird": {
       "title": "Birds Of A Feather ~ 3",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Purple_Bird.jpg",
-      "width": 38,
-      "height": 45,
-      "top": 302,
-      "left": 8
+      "width": 25.5,
+      "height": 31,
+      "top": 250,
+      "left": 40
     },
     "Pink_Bird": {
       "title": "Birds Of A Feather ~ 4",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Pink_Bird.jpg",
-      "width": 38,
-      "height": 45,
-      "top": 306,
-      "left": 54
+      "width": 25.5,
+      "height": 31,
+      "top": 292,
+      "left": 37
     },
     "Yellow_Bird": {
       "title": "Birds Of A Feather ~ 5",
       "description": "Sold",
       "image": "Yellow_Bird.jpg",
-      "width": 38,
-      "height": 45,
-      "top": 306,
-      "left": 54
+      "width": 25.5,
+      "height": 31,
+      "top": 292,
+      "left": 68
     },
     "Augustus": {
       "title": "Augustus",
@@ -608,10 +608,10 @@
       "title": "Imp",
       "description": "I keep forgetting to finish my tea, but when I go to clean the cup, it's empty...",
       "image": "Imp.jpg",
-      "width": 37,
-      "height": 45,
-      "top": 410,
-      "left": 54
+      "width": 25,
+      "height": 31,
+      "top": 130,
+      "left": 70
     },
     "Nightmare": {
       "title": "A Nighttime Friend",
