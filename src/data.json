@@ -343,7 +343,7 @@
     },
     "King_Of_Hearts": {
       "title": "The King Of Hearts",
-      "description": "The King of Hearts. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "King_Of_Hearts.jpg",
       "width": 26,
       "height": 32,
@@ -352,7 +352,7 @@
     },
     "Sunset": {
       "title": "I Feel Like A Sunset",
-      "description": "I Feel Like A Sunset. Available - Currently showing at Studio Hix in downtown San Francisco",
+      "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Sunset.jpg",
       "width": 26,
       "height": 32,
@@ -361,7 +361,7 @@
     },
     "Love": {
       "title": "Love Feels Like",
-      "description": "Love Feels Like.  Sold",
+      "description": "Sold",
       "image": "Love.jpg",
       "width": 26,
       "height": 32,
