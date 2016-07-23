@@ -648,6 +648,15 @@
       "height": 35,
       "top": 378,
       "left": 67
+    },
+    "BackToTop": {
+      "title": "",
+      "description": "BACK TO THE TOP",
+      "image": "BackToTop.png",
+      "width": 16,
+      "height": 20,
+      "top": 425,
+      "left": 41
     }
   }
 }
