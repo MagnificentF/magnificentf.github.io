@@ -626,28 +626,28 @@
       "title": "Aloicious and Abe",
       "description": "Private Collection",
       "image": "Aloicious_And_Abe.jpg",
-      "width": 38,
-      "height": 45,
-      "top": 500,
-      "left": 8
+      "width": 28.5,
+      "height": 35,
+      "top": 378,
+      "left": 4
     },
     "Inseperable": {
       "title": "Inseperable",
       "description": "Available - Currently showing at Studio Hix in downtown San Francisco",
       "image": "Inseperable.jpg",
-      "width": 38,
-      "height": 45,
-      "top": 500,
-      "left": 54
+      "width": 28.5,
+      "height": 35,
+      "top": 380,
+      "left": 35.5
     },
     "Brothers": {
       "title": "Brothers",
       "description": "",
       "image": "Brothers.jpg",
-      "width": 38,
-      "height": 45,
-      "top": 530,
-      "left": 54
+      "width": 28.5,
+      "height": 35,
+      "top": 378,
+      "left": 67
     }
   }
 }
