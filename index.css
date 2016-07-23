@@ -372,10 +372,10 @@ main article form label [type=submit] {
   background-size: cover;
 }
 
-#BackToTop {
+#BackToTop1 {
   width: 16%;
   padding: 10% 0;
-  margin: 425% 0 0 0;
+  margin: 365% 0 0 0;
   left: 41%;
   background-image: url(images/BackToTop.png);
   background-repeat: no-repeat;
@@ -598,6 +598,17 @@ main article form label [type=submit] {
   margin: 333% 0 0 0;
   left: 70%;
   background-image: url(images/Life_On_Mars.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#BackToTop2 {
+  width: 16%;
+  padding: 10% 0;
+  margin: 364% 0 0 0;
+  left: 41%;
+  background-image: url(images/BackToTop.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -884,6 +895,17 @@ main article form label [type=submit] {
   margin: 378% 0 0 0;
   left: 67%;
   background-image: url(images/Brothers.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#BackToTop3 {
+  width: 16%;
+  padding: 10% 0;
+  margin: 425% 0 0 0;
+  left: 41%;
+  background-image: url(images/BackToTop.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

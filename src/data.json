@@ -213,14 +213,14 @@
       "top": 306,
       "left": 54
     },
-      "BackToTop": {
-        "title": "",
-        "description": "BACK TO THE TOP",
-        "image": "BackToTop.png",
-        "width": 16,
-        "height": 20,
-        "top": 365,
-        "left": 41
+    "BackToTop1": {
+      "title": "",
+      "description": "BACK TO THE TOP",
+      "image": "BackToTop.png",
+      "width": 16,
+      "height": 20,
+      "top": 365,
+      "left": 41
     }
   },
   "painting": {
@@ -404,13 +404,13 @@
       "top": 333,
       "left": 70
     },
-    "BackToTop": {
+    "BackToTop2": {
       "title": "",
       "description": "BACK TO THE TOP",
       "image": "BackToTop.png",
       "width": 16,
       "height": 20,
-      "top": 372,
+      "top": 364,
       "left": 41
     }
   },
@@ -649,7 +649,7 @@
       "top": 378,
       "left": 67
     },
-    "BackToTop": {
+    "BackToTop3": {
       "title": "",
       "description": "BACK TO THE TOP",
       "image": "BackToTop.png",
