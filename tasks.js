@@ -1,11 +1,36 @@
-var fs = require('fs');
-var config = require('./config');
-var color = require('chalk');
+const fs = require('fs');
+const config = require('./config');
+const color = require('chalk');
 
 exports.css = css;
 function css (){
 	console.info(color.cyan('css build task started'));
-	var postcss = require('postcss');
+
+	delete require.cache[require.resolve('./src/data.json')];
+
+	const jsonData = require('./src/data.json');
+
+	const exhibits = [];
+	for (let group in jsonData) {
+		for (let id in jsonData[group]) {
+			exhibits.push(Object.assign({id: id}, jsonData[group][id]));
+		}
+	}
+	console.info(color.yellow(`${exhibits.length} exhibits processed!`));
+
+	const stylus = require('stylus');
+	stylus(fs.readFileSync(config.cssSrc, 'utf8'))
+	  .set('filename', config.cssDest)
+	  .define('exhibits', exhibits)
+	  .render(function (err, css) {
+	    if (err) console.error(color.red(err));
+	    else {
+	    	fs.writeFileSync(config.cssDest, css);
+	    	console.info(color.cyan('css built'));
+	    }
+	  });
+
+	/*var postcss = require('postcss');
 	try {
 		postcss([
 			require('postcss-mixins')({
@@ -38,7 +63,7 @@ function css (){
 				});
 	} catch(e) {
 		console.dir(e);
-	}
+	}*/
 
 }
 

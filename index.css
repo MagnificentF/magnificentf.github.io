@@ -1,52 +1,44 @@
-
-/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
-  background-image: url('/images/background.jpg');
+  background-image: url("/images/background.jpg");
   background-repeat: repeat;
   background-position: center;
-  color: rgb(145, 214, 211);
-  font-family: 'Corben', Georgia, cursive;
+  color: #91d6d3;
+  font-family: 'Corben' Georgia cursive;
 }
 a {
   text-decoration: inherit;
   font-style: inherit;
   color: inherit;
 }
-a:link, a:visited {
+a:link a:visited {
   color: inherit;
 }
 a:hover {
-  color: white;
+  color: #fff;
 }
 a:active {
-  color: teal;
+  color: #008080;
 }
-/*@media (--desktop) {
-      width: 900px;
-      margin: auto;
-    }*/
 main header h1#aquaframe {
   text-align: center;
-  background-image: url('/images/aquaframe.png');
+  background-image: url("/images/aquaframe.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
   font-weight: bold;
   font-family: 'Mountains of Christmas';
   padding: 8.7% 0;
   margin: 1% auto;
   font-size: 4vw;
   width: 50%;
-  /*@media (--desktop) {
-        font-size: 3.5em;
-      }*/
 }
 main nav {
   margin: auto;
@@ -56,8 +48,8 @@ main nav {
 main nav a {
   display: inline-block;
   padding: 1em;
-  font-family: 'Life Savers', Georgia, serif;
-  letter-spacing: .1em;
+  font-family: 'Life Savers' Georgia serif;
+  letter-spacing: 0.1em;
 }
 main article {
   display: none;
@@ -65,16 +57,16 @@ main article {
 main article#home {
   display: block;
 }
-main article:target {
+main articletarget {
   position: relative;
   display: block;
 }
-main article:target ~ #home {
+main articletarget ~ #home {
   display: none;
 }
 main article h2 {
-  font-family: 'Life Savers', Georgia, serif;
-  letter-spacing: .1em;
+  font-family: 'Life Savers' Georgia serif;
+  letter-spacing: 0.1em;
   display: none;
 }
 main article figure.exhibit {
@@ -99,792 +91,238 @@ main article form label {
 main article form label.right {
   justify-content: flex-end;
 }
-main article form label [type=text], main article form label [type=email], main article form label textarea {
+main article form label [type=text],
+main article form label [type=email],
+main article form label textarea {
   font-size: 1em;
   vertical-align: middle;
-  color: rgb(94, 139, 137);
-  background: black;
-  border: 1px solid gray;
-  border-radius: .25em;
-  padding: .5em;
+  color: #3faaa5;
+  background: #000;
+  border: 1px solid #808080;
+  border-radius: 0.25em;
+  padding: 0.5em;
   flex-grow: 1;
   margin-left: 1em;
 }
 main article form label [type=submit] {
-  background: black;
-  border: 1px solid gray;
-  border-radius: .25em;
-  color: white;
+  background: #000;
+  border: 1px solid #808080;
+  border-radius: 0.25em;
+  color: #fff;
   font-size: 1em;
-  padding: .5em;
-}
-
-#illustrationSpecimen {
-  width: 26%;
-  padding: 16% 0;
-  margin: 3% 0 0 0;
-  left: 5%;
-  background-image: url(images/Priscilla_And_Peach.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#paintingSpecimen {
-  width: 32%;
-  padding: 20% 0;
-  margin: 0% 0 0 0;
-  left: 34%;
-  background-image: url(images/Oliver_A_Hummingbird.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#sculptureSpecimen {
-  width: 26%;
-  padding: 16% 0;
-  margin: 3% 0 0 0;
-  left: 69%;
-  background-image: url(images/Iphignea.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#animationSpecimen {
-  width: 45%;
-  padding: 13% 0;
-  margin: 50% 0 0 0;
-  left: 28%;
-  background-image: url(images/Crocodile.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#claudette {
-  width: 26%;
-  padding: 16% 0;
-  margin: 3% 0 0 0;
-  left: 5%;
-  background-image: url(images/Claudette.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#hisLovelyAssistant {
-  width: 25%;
-  padding: 12.5% 0;
-  margin: 5% 0 0 0;
-  left: 37%;
-  background-image: url(images/His_Lovely_Assistant.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#priscillaAndPeach {
-  width: 26%;
-  padding: 16% 0;
-  margin: 3% 0 0 0;
-  left: 69%;
-  background-image: url(images/Priscilla_And_Peach.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#maxAndJax {
-  width: 30%;
-  padding: 17% 0;
-  margin: 50% 0 0 0;
-  left: 5%;
-  background-image: url(images/Max_And_Jax.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#mementoMori {
-  width: 40%;
-  padding: 12% 0;
-  margin: 50% 0 0 0;
-  left: 49%;
-  background-image: url(images/Memento_Mori.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#theMoon {
-  width: 30%;
-  padding: 12% 0;
-  margin: 82% 0 0 0;
-  left: 64%;
-  background-image: url(images/The_Moon.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#bandLogo {
-  width: 21%;
-  padding: 10.5% 0;
-  margin: 78% 0 0 0;
-  left: 39%;
-  background-image: url(images/Band_Logo.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#theSalesman {
-  width: 25.5%;
-  padding: 15.5% 0;
-  margin: 99% 0 0 0;
-  left: 5%;
-  background-image: url(images/The_Salesman.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#voodooDoll {
-  width: 25.5%;
-  padding: 15.5% 0;
-  margin: 116% 0 0 0;
-  left: 36%;
-  background-image: url(images/Voodoo_Doll.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#goth {
-  width: 26%;
-  padding: 15% 0;
-  margin: 114% 0 0 0;
-  left: 68%;
-  background-image: url(images/Goth.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#thePrototype {
-  width: 23%;
-  padding: 18.5% 0;
-  margin: 137% 0 0 0;
-  left: 5%;
-  background-image: url(images/The_Prototype.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#ouija {
-  width: 33%;
-  padding: 11% 0;
-  margin: 154% 0 0 0;
-  left: 33%;
-  background-image: url(images/Ouija.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#theNightmareMuncher {
-  width: 22%;
-  padding: 14% 0;
-  margin: 151% 0 0 0;
-  left: 71.5%;
-  background-image: url(images/The_Nightmare_Muncher.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#zylphia {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 180% 0 0 0;
-  left: 8%;
-  background-image: url(images/Zylphia.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#violetAndVivian {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 184% 0 0 0;
-  left: 52%;
-  background-image: url(images/Violet_And_Vivian.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#vertiline {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 246% 0 0 0;
-  left: 54%;
-  background-image: url(images/Vertiline.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#eudora {
-  width: 38%;
-  padding: 23.5% 0;
-  margin: 240% 0 0 0;
-  left: 9%;
-  background-image: url(images/Eudora.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#flora {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 302% 0 0 0;
-  left: 8%;
-  background-image: url(images/Flora.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#maryAnnCotton {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 306% 0 0 0;
-  left: 54%;
-  background-image: url(images/Mary_Ann_Cotton.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#BackToTop {
-  width: 16%;
-  padding: 10% 0;
-  margin: 372% 0 0 0;
-  left: 41%;
-  background-image: url(images/BackToTop.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Oliver_A_Hummingbird {
-  width: 32%;
-  padding: 20.5% 0;
-  margin: 0% 0 0 0;
-  left: 3%;
-  background-image: url(images/Oliver_A_Hummingbird.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Lysander_A_Albatros {
-  width: 28%;
-  padding: 16% 0;
-  margin: 4% 0 0 0;
-  left: 38%;
-  background-image: url(images/Lysander_A._Albatros.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Mercy_A_Bluebird {
-  width: 24%;
-  padding: 15% 0;
-  margin: 0% 0 0 0;
-  left: 71%;
-  background-image: url(images/Mercy_A._Bluebird.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Margory_A_Quail {
-  width: 29%;
-  padding: 20.5% 0;
-  margin: 50% 0 0 0;
-  left: 4%;
-  background-image: url(images/Margory_A._Quail.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Winthrop_A_Owl {
-  width: 27%;
-  padding: 17% 0;
-  margin: 47% 0 0 0;
-  left: 35%;
-  background-image: url(images/Winthrop_A._Owl.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Thaddeus_A_Peacock {
-  width: 31%;
-  padding: 19% 0;
-  margin: 45% 0 0 0;
-  left: 65%;
-  background-image: url(images/Thaddeus_A._Peacock.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Iphignea_A_Magpie {
-  width: 26.5%;
-  padding: 16.5% 0;
-  margin: 95% 0 0 0;
-  left: 65%;
-  background-image: url(images/Iphignea_A._Magpie.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Fingers_A_Pelican {
-  width: 45%;
-  padding: 17.5% 0;
-  margin: 105% 0 0 0;
-  left: 11%;
-  background-image: url(images/Fingers_A._Pelican.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Lenore_A_Raven {
-  width: 25.5%;
-  padding: 16.5% 0;
-  margin: 150% 0 0 0;
-  left: 4%;
-  background-image: url(images/Lenore_A._Raven.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Chauncey_A_Rockdove {
-  width: 26%;
-  padding: 16.5% 0;
-  margin: 200% 0 0 0;
-  left: 10%;
-  background-image: url(images/Chauncey_A._Rockdove.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Aloysius_A_Flamingo {
-  width: 28%;
-  padding: 18% 0;
-  margin: 150% 0 0 0;
-  left: 34%;
-  background-image: url(images/Aloysius_A._Flamingo.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Byron_A_Hornedowl {
-  width: 30%;
-  padding: 19% 0;
-  margin: 143% 0 0 0;
-  left: 66%;
-  background-image: url(images/Byron_A._Hornedowl.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Content {
-  width: 40%;
-  padding: 16.5% 0;
-  margin: 201% 0 0 0;
-  left: 48%;
-  background-image: url(images/Content.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#King_Of_Hearts {
-  width: 26%;
-  padding: 16% 0;
-  margin: 247% 0 0 0;
-  left: 5%;
-  background-image: url(images/King_Of_Hearts.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Sunset {
-  width: 26%;
-  padding: 16% 0;
-  margin: 245% 0 0 0;
-  left: 37%;
-  background-image: url(images/Sunset.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Love {
-  width: 26%;
-  padding: 16% 0;
-  margin: 245% 0 0 0;
-  left: 69%;
-  background-image: url(images/Love.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Ooze {
-  width: 20%;
-  padding: 19% 0;
-  margin: 290% 0 0 0;
-  left: 10%;
-  background-image: url(images/Ooze.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Lurk {
-  width: 20%;
-  padding: 19% 0;
-  margin: 290% 0 0 0;
-  left: 38%;
-  background-image: url(images/Lurk.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#My_Friends_Cat {
-  width: 25%;
-  padding: 20% 0;
-  margin: 287% 0 0 0;
-  left: 65%;
-  background-image: url(images/My_Friends_Cat.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Life_On_Mars {
-  width: 20%;
-  padding: 22.5% 0;
-  margin: 333% 0 0 0;
-  left: 70%;
-  background-image: url(images/Life_On_Mars.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Mirth {
-  width: 30%;
-  padding: 19% 0;
-  margin: 3% 0 0 0;
-  left: 5%;
-  background-image: url(images/Mirth.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Grief {
-  width: 25%;
-  padding: 14.5% 0;
-  margin: 5% 0 0 0;
-  left: 37%;
-  background-image: url(images/Grief.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Wonder {
-  width: 26%;
-  padding: 16% 0;
-  margin: 3% 0 0 0;
-  left: 69%;
-  background-image: url(images/Wonder.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Iphignea {
-  width: 30%;
-  padding: 17% 0;
-  margin: 50% 0 0 0;
-  left: 5%;
-  background-image: url(images/Iphignea.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Princess_And_Pea {
-  width: 40%;
-  padding: 12% 0;
-  margin: 50% 0 0 0;
-  left: 49%;
-  background-image: url(images/Princess_And_Pea.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Punk {
-  width: 30%;
-  padding: 12% 0;
-  margin: 82% 0 0 0;
-  left: 64%;
-  background-image: url(images/Punk.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#The_Rubbish_Service {
-  width: 21%;
-  padding: 10.5% 0;
-  margin: 78% 0 0 0;
-  left: 39%;
-  background-image: url(images/The_Rubbish_Service.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#The_Knife_Thrower {
-  width: 25.5%;
-  padding: 15.5% 0;
-  margin: 99% 0 0 0;
-  left: 5%;
-  background-image: url(images/The_Knife_Thrower.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Cicada_Sugar {
-  width: 25.5%;
-  padding: 15.5% 0;
-  margin: 116% 0 0 0;
-  left: 36%;
-  background-image: url(images/Cicada_Sugar.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Cicada_Teapot {
-  width: 26%;
-  padding: 15% 0;
-  margin: 114% 0 0 0;
-  left: 68%;
-  background-image: url(images/Cicada_Teapot.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Cicada_Creamer {
-  width: 23%;
-  padding: 18.5% 0;
-  margin: 137% 0 0 0;
-  left: 5%;
-  background-image: url(images/Cicada_Creamer.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Butterfly_Creamer_1 {
-  width: 33%;
-  padding: 11% 0;
-  margin: 154% 0 0 0;
-  left: 33%;
-  background-image: url(images/Butterfly_Creamer_1.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Lobster_Pot {
-  width: 22%;
-  padding: 14% 0;
-  margin: 151% 0 0 0;
-  left: 71.5%;
-  background-image: url(images/Lobster_Pot.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Butterfly_Creamer_2 {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 180% 0 0 0;
-  left: 8%;
-  background-image: url(images/Butterfly_Creamer_2.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Butter {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 184% 0 0 0;
-  left: 52%;
-  background-image: url(images/Butter.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Blue_Bird {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 246% 0 0 0;
-  left: 54%;
-  background-image: url(images/Blue_Bird.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Green_Bird {
-  width: 38%;
-  padding: 23.5% 0;
-  margin: 240% 0 0 0;
-  left: 9%;
-  background-image: url(images/Green_Bird.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Purple_Bird {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 302% 0 0 0;
-  left: 8%;
-  background-image: url(images/Purple_Bird.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Pink_Bird {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 306% 0 0 0;
-  left: 54%;
-  background-image: url(images/Pink_Bird.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Yellow_Bird {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 306% 0 0 0;
-  left: 54%;
-  background-image: url(images/Yellow_Bird.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Augustus {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 350% 0 0 0;
-  left: 52%;
-  background-image: url(images/Augustus.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Imp {
-  width: 37%;
-  padding: 22.5% 0;
-  margin: 410% 0 0 0;
-  left: 54%;
-  background-image: url(images/Imp.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Nightmare {
-  width: 38%;
-  padding: 23.5% 0;
-  margin: 420% 0 0 0;
-  left: 9%;
-  background-image: url(images/Nightmare.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Aloicious_And_Abe {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 500% 0 0 0;
-  left: 8%;
-  background-image: url(images/Aloicious_And_Abe.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Inseperable {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 500% 0 0 0;
-  left: 54%;
-  background-image: url(images/Inseperable.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
-#Brothers {
-  width: 38%;
-  padding: 22.5% 0;
-  margin: 530% 0 0 0;
-  left: 54%;
-  background-image: url(images/Brothers.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  padding: 0.5em;
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
+}
+.wtf {
+  content: 'wtf';
 }

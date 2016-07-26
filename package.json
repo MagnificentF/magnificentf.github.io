@@ -31,13 +31,7 @@
     "lodash.throttle": "^4.0.1",
     "node-static": "^0.7.7",
     "npm-run-all": "^2.3.0",
-    "postcss": "^5.0.20",
-    "postcss-color-function": "^2.0.1",
-    "postcss-custom-media": "^5.0.1",
-    "postcss-mixins": "^5.0.0",
-    "postcss-nested": "^1.0.0",
-    "postcss-scss": "^0.1.7",
-    "postcss-simple-vars": "^3.0.0",
-    "pug": "^2.0.0-alpha3"
+    "pug": "^2.0.0-alpha3",
+    "stylus": "^0.54.5"
   }
 }

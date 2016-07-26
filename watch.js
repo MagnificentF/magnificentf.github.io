@@ -4,7 +4,7 @@ const color = require('chalk');
 const debounce = require('lodash.debounce');
 
 const css = debounce(tasks.css, 1000);
-chokidar.watch('src/*.(scss|json|js)')
+chokidar.watch('src/*.(styl|json|js)')
 	.on('all', (event, path) => setTimeout(css, 1000));
 
 const html = debounce(tasks.html, 1000);
